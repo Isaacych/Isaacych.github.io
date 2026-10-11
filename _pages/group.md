@@ -13,54 +13,25 @@ author_profile: true
 - Assistant Professor of Physics
 - Kennesaw State University
 - Email: cyuen2@kennesaw.edu
-- Office: TBA
 
 ### Undergraduate Researchers
 
-**Ethan Cup** (Fall 2026 - present)
-- Research focus: TBA
+- Ethan Cup (Fall 2026 - present)
+- Lily Richard (Spring 2025 - present)
 
-**Lily Richard** (Spring 2025 - present)
-- 2025 REU program participant at Kansas State University
-- Research focus: Laser-induced electron diffraction and molecular isomer identification
+## Recent Alumni
 
-### Recent Group Members
-
-**Ya Gao** (Fall 2025 - Spring 2026)
-- *Now studying Master of Medical Physics at Virginia Commonwealth University*
-
-**Nigel Parrish** (Spring 2025 - Summer 2025)
-- High School Magnet student (Wheel High School)
-- Worked on laser-induced electron diffraction
-
-**Jackson Diodati** (Summer 2023)
-- University of Massachusetts Amherst
-- NSF REU participant
-
-**Kathryn Chain** (Summer 2023)
-- University of Nebraska at Omaha
-- NSF REU participant
+- Ya Gao (2025-2026) - Now at Virginia Commonwealth University
+- NSF REU students (2023-2025)
 
 ## Joining the Group
 
-We are looking for motivated undergraduate and graduate students interested in:
-- Theoretical and computational atomic and molecular physics
-- Strong-field dynamics and attosecond science
-- Laser-driven ultrafast processes
-- Quantum mechanics and computational physics
+We welcome motivated students interested in theoretical and computational atomic, molecular, and optical (AMO) physics.
 
-### Research Opportunities
+Research areas include:
+- Strong-field ionization and excitation
+- Attosecond and ultrafast spectroscopy
+- Ultrafast molecular imaging and control
+- Quantum dynamics and computational physics
 
-- **Undergraduate Research**: Opportunities available year-round and through summer research programs (NSF REU, university-sponsored initiatives)
-- **Graduate Students**: Students interested in pursuing a Ph.D. should contact Prof. Yuen
-- **Visitors**: We welcome visiting researchers and collaborators
-
-### Collaborators
-
-We actively collaborate with experimental and theoretical groups at:
-- Kansas State University
-- JILA, University of Colorado Boulder
-- University of Central Florida
-- International institutions in Europe and Asia
-
-For inquiries about joining the group or collaboration opportunities, please contact: **cyuen2@kennesaw.edu**
+For inquiries about research opportunities, please contact: **cyuen2@kennesaw.edu**

@@ -113,7 +113,7 @@ analytics:
 # Site Author
 author:
   name             : "C.H. Isaac Yuen"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/portrait.jpg"
   bio              : "Assistant Professor of Physics at Kennesaw State University. Research interests: strong-field and attosecond science."
   location         : "Marietta, Georgia, USA"
   email            : "cyuen2@kennesaw.edu"

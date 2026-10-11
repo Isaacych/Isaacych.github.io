@@ -16,11 +16,11 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 # Site Settings
 locale                   : "en-US"
 direction                : # "ltr" (default), "rtl" # set the direction of the page
-title                    : "Chi-Hong Isaac Yuen"
+title                    : "C.H. Isaac Yuen"
 title_separator          : "-"
 subtitle                 : "Assistant Professor of Physics"
-name                     : "Chi-Hong Isaac Yuen"
-description              : "Research in atomic, molecular, and optical (AMO) physics, focusing on strong-field dynamics, attosecond science, and ultrafast molecular imaging."
+name                     : "C.H. Isaac Yuen"
+description              : "Research in atomic, molecular, and optical (AMO) physics, focusing on strong-field and attosecond science."
 url                      : "https://isaacych.github.io" # the base hostname & protocol for your site
 baseurl                  : "/website" # the subpath of your site (project site served at /website/)
 repository               : "Isaacych/website"
@@ -30,7 +30,7 @@ masthead_title           : # overrides the website title displayed in the masthe
 breadcrumbs              : # true, false (default)
 words_per_minute         : 200
 enable_copy_code_button  : # true, false (default)
-copyright                : "Chi-Hong Isaac Yuen"
+copyright                : "C.H. Isaac Yuen"
 copyright_url            : "https://facultyweb.kennesaw.edu/cyuen2/"
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
@@ -97,7 +97,7 @@ og_image                 :
 og_image_alt             :
 social:
   type                   : Person
-  name                   : "Chi-Hong Isaac Yuen"
+  name                   : "C.H. Isaac Yuen"
   links:
     - "https://scholar.google.com/citations?user=1lWB0RwAAAAJ"
     - "https://github.com/Isaacych"
@@ -112,15 +112,12 @@ analytics:
 
 # Site Author
 author:
-  name             : "Chi-Hong Isaac Yuen"
+  name             : "C.H. Isaac Yuen"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Assistant Professor of Physics at Kennesaw State University. Research interests: strong-field dynamics, attosecond science, and ultrafast molecular imaging."
+  bio              : "Assistant Professor of Physics at Kennesaw State University. Research interests: strong-field and attosecond science."
   location         : "Marietta, Georgia, USA"
   email            : "cyuen2@kennesaw.edu"
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-square-envelope"
-      url: "mailto:cyuen2@kennesaw.edu"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://facultyweb.kennesaw.edu/cyuen2/"

@@ -16,9 +16,9 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 # Site Settings
 locale                   : "en-US"
 direction                : # "ltr" (default), "rtl" # set the direction of the page
-title                    : "C.H. Isaac Yuen"
+title                    : "Yuen Research Group"
 title_separator          : "-"
-subtitle                 : "Assistant Professor of Physics"
+subtitle                 : "Kennesaw State University"
 name                     : "C.H. Isaac Yuen"
 description              : "Research in atomic, molecular, and optical (AMO) physics, focusing on strong-field and attosecond science."
 url                      : "https://isaacych.github.io" # the base hostname & protocol for your site

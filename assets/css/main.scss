@@ -15,8 +15,8 @@ $doc-font-size: 12px;
 @import "minimal-mistakes"; // main partials
 
 /* Hero image caption is $type-size-7 (~8px at the 12px base) by default;
-   bump it to body text size for readability without affecting other
+   bump it to ~14px for readability without affecting other
    type-size-7 elements (footer, nav, buttons). */
 .page__hero-caption {
-  font-size: 1em;
+  font-size: 1.167em; // ~14px at the 12px base
 }

@@ -21,7 +21,7 @@ title_separator          : "-"
 subtitle                 : "Kennesaw State University"
 name                     : "C.H. Isaac Yuen"
 description              : "Research in atomic, molecular, and optical (AMO) physics, focusing on strong-field and attosecond science."
-url                      : "https://isaacych.github.io" # the base hostname & protocol for your site
+url                      : "https://isaacyuen.com" # the base hostname & protocol for your site
 baseurl                  : "" # the subpath of your site (project site served at /website/)
 repository               : "Isaacych/Isaacych.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"

@@ -154,6 +154,55 @@ def clean_title(key, raw):
     return t.strip()
 
 
+# Given-name particles that belong with the surname (e.g. "dos Santos",
+# "van der Berg").  Matched case-insensitively against whole tokens of the
+# given-name part.
+_PARTICLES = {
+    "van", "von", "der", "den", "de", "da", "das", "del", "della", "dos",
+    "du", "le", "la", "los", "las", "di", "al", "ibn", "ter", "ten",
+}
+
+# A few names do not abbreviate sensibly with the general rule (double
+# surnames); keyed by the cleaned name, they bypass the general rule.
+NAME_OVERRIDES = {
+    "Michel Douglas Epée Epée": "M.D. Epée Epée",
+}
+
+
+def abbreviate_author(name):
+    """Abbreviate a personal name to 'initials. Surname'.
+
+    Handles both 'First Last' and 'Last, First' orderings, hyphenated given
+    names ('Chi-Hong' -> 'C.H.'), and name particles ('dos', 'van der', ...)
+    which stay attached to the surname:
+
+        'Chi Hong Yuen'        -> 'C.H. Yuen'
+        'Yuen, C. H.'          -> 'C.H. Yuen'
+        'Santos, Samantha Fonseca dos' -> 'S.F. dos Santos'
+    """
+    if name in NAME_OVERRIDES:
+        return NAME_OVERRIDES[name]
+    if "," in name:
+        last, first = name.split(",", 1)
+        last, first = last.strip(), first.strip()
+    else:
+        words = name.split()
+        last, first = words[-1], " ".join(words[:-1])
+    initials, particles = [], []
+    for tok in re.split(r"[\s-]+", first):
+        if not tok:
+            continue
+        if tok.lower() in _PARTICLES:
+            particles.append(tok)
+        else:
+            initials.append(tok[0].upper())
+    if particles:
+        last = " ".join(particles + [last])
+    if initials:
+        return "".join(i + "." for i in initials) + " " + last
+    return last
+
+
 def clean_authors(raw):
     names = [n for n in re.split(r"\s+and\s+", _normalize_ws(raw), flags=re.IGNORECASE)]
     cleaned = []
@@ -163,8 +212,11 @@ def clean_authors(raw):
         n = re.sub(r"\s+", " ", n)
         n = n.strip()
         if n:
-            cleaned.append(n)
-    return ", ".join(cleaned)
+            cleaned.append(abbreviate_author(n))
+    if len(cleaned) <= 1:
+        return ", ".join(cleaned)
+    # 'A, B, and C' -- 'and' before the last author
+    return ", ".join(cleaned[:-1]) + " and " + cleaned[-1]
 
 
 def clean_journal(raw):

@@ -6,11 +6,9 @@ header:
   image_description: Laser pulse waveform — attosecond electron dynamics summary
 ---
 
-## Welcome
-
 I am an Assistant Professor of Physics at [Kennesaw State University](https://www.kennesaw.edu/), working in theoretical atomic, molecular, and optical (AMO) physics.
 
-My research develops theory and computational models for how molecules respond to intense, ultrashort laser pulses. The goal is to probe and image electron and nuclear motion in molecules on attosecond to femtosecond timescales.
+My research develops theory and computational models for how molecules respond to intense, ultrashort laser pulses. The goal is to control and image electron and nuclear motion in molecules on attosecond to femtosecond timescales.
 
 ## Research Highlights
 

@@ -11,7 +11,7 @@
       <li class="pub-item">
         <strong class="pub-authors">{{ e.authors }}</strong>,
         <a class="pub-title" href="{{ e.url | relative_url }}" target="_blank" rel="noopener">{{ e.title }}</a>
-        <div class="pub-journal">{{ e.journal }}{% if e.volume %} {{ e.volume }}{% endif %}{% if e.number %} ({{ e.number }}){% endif %}{% if e.pages %}, {{ e.pages }}{% endif %} ({{ group.year }})</div>
+        <span class="pub-journal">{{ e.journal }}{% if e.volume %} {{ e.volume }}{% endif %}{% if e.number %} ({{ e.number }}){% endif %}{% if e.pages %}, {{ e.pages }}{% endif %} ({{ group.year }})</span>
         <a class="pub-doi" href="{{ e.url | relative_url }}" target="_blank" rel="noopener">DOI</a>
       </li>
     {% endfor %}

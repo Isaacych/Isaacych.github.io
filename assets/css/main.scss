@@ -20,3 +20,15 @@ $doc-font-size: 12px;
 .page__hero-caption {
   font-size: 1em; // 12px at the 12px base, same as body text
 }
+
+/* Masthead: the title inherits the 12px body size (same as the nav links)
+   and the subtitle is $type-size-8 (7.5px at the 12px base). Bump both for
+   readability. The subtitle is nested in the .site-title anchor, so its em
+   is relative to the 15px title, not the 12px base. */
+.site-title {
+  font-size: 1.25em; // 15px at the 12px base
+
+  .site-subtitle {
+    font-size: 0.7em; // 10.5px (0.7 of the 15px title)
+  }
+}

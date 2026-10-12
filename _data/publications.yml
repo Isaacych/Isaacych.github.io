@@ -14,6 +14,8 @@
       title: "Nonadiabatic theory for subcycle ionic dynamics in multielectron tunneling ionization"
       journal: "Physical Review A"
       volume: 113
+      number: 4
+      pages: "043125"
       doi: "10.1103/fwx1-w9f4"
       url: "https://doi.org/10.1103/fwx1-w9f4"
     - key: Wang_2026
@@ -21,6 +23,8 @@
       title: "Tunneling-ionization-assisted laser-induced electron diffraction for molecular differentiation: From isomers and structural analogs to dynamic systems"
       journal: "Physical Review A"
       volume: 113
+      number: 4
+      pages: "043121"
       doi: "10.1103/px3z-ttlq"
       url: "https://doi.org/10.1103/px3z-ttlq"
     - key: Yuen_2026a
@@ -28,6 +32,8 @@
       title: "Enhanced excited-state population and coherence via adiabatic tunneling ionization and excitation"
       journal: "Physical Review A"
       volume: 113
+      number: 1
+      pages: "013125"
       doi: "10.1103/4yn6-sxct"
       url: "https://doi.org/10.1103/4yn6-sxct"
 
@@ -38,6 +44,8 @@
       title: "Optical interference effect in strong-field electronic coherence spectroscopy"
       journal: "Physical Review A"
       volume: 112
+      number: 4
+      pages: "043113"
       doi: "10.1103/rkdq-5skq"
       url: "https://doi.org/10.1103/rkdq-5skq"
     - key: Jia_2025
@@ -45,6 +53,8 @@
       title: "Modeling the dissociative sequential triple ionization of nitrogen molecules by ultrashort intense infrared laser pulses"
       journal: "Physical Review A"
       volume: 112
+      number: 3
+      pages: "L031101"
       doi: "10.1103/jfqj-c19k"
       url: "https://doi.org/10.1103/jfqj-c19k"
     - key: Yuen_2025
@@ -52,6 +62,8 @@
       title: "Erratum: Coherence from multiorbital tunneling ionization of molecules [Phys. Rev. A 108, 023123 (2023)]"
       journal: "Physical Review A"
       volume: 111
+      number: 3
+      pages: "039904"
       doi: "10.1103/physreva.111.039904"
       url: "https://doi.org/10.1103/physreva.111.039904"
 
@@ -62,6 +74,8 @@
       title: "Improved model for the dissociative sequential double ionization of nitrogen molecules by an intense few-cycle infrared laser pulse"
       journal: "Physical Review A"
       volume: 110
+      number: 2
+      pages: "023112"
       doi: "10.1103/physreva.110.023112"
       url: "https://doi.org/10.1103/physreva.110.023112"
     - key: Jiang_2024
@@ -69,6 +83,8 @@
       title: "Process of dissociation of NH₃ by electron impact in low-temperature plasma and its isotope effect"
       journal: "Physical Review A"
       volume: 110
+      number: 2
+      pages: "L020803"
       doi: "10.1103/physreva.110.l020803"
       url: "https://doi.org/10.1103/physreva.110.l020803"
     - key: He_2024
@@ -76,6 +92,8 @@
       title: "Ultrafast Picometer-Resolved Molecular Structure Imaging by Laser-Induced High-Order Harmonics"
       journal: "Physical Review Letters"
       volume: 133
+      number: 2
+      pages: "023201"
       doi: "10.1103/physrevlett.133.023201"
       url: "https://doi.org/10.1103/physrevlett.133.023201"
     - key: Yuen_2024c
@@ -83,6 +101,7 @@
       title: "Rotation in attosecond vibronic coherence spectroscopy for molecules"
       journal: "Communications Physics"
       volume: 7
+      number: 1
       doi: "10.1038/s42005-024-01607-8"
       url: "https://doi.org/10.1038/s42005-024-01607-8"
     - key: Yuen_2024b
@@ -90,6 +109,8 @@
       title: "Theory of strong-field sequential double ionization of polyatomic molecules"
       journal: "Physical Review A"
       volume: 109
+      number: 3
+      pages: "033108"
       doi: "10.1103/physreva.109.033108"
       url: "https://doi.org/10.1103/physreva.109.033108"
     - key: Yuen_2024a
@@ -97,6 +118,8 @@
       title: "Probing vibronic coherence in charge migration in molecules using strong-field sequential double ionization"
       journal: "Physical Review A"
       volume: 109
+      number: 1
+      pages: "L011101"
       doi: "10.1103/physreva.109.l011101"
       url: "https://doi.org/10.1103/physreva.109.l011101"
 
@@ -107,6 +130,8 @@
       title: "Coherence from multiorbital tunneling ionization of molecules"
       journal: "Physical Review A"
       volume: 108
+      number: 2
+      pages: "023123"
       doi: "10.1103/physreva.108.023123"
       url: "https://doi.org/10.1103/physreva.108.023123"
     - key: Yuen_2023a
@@ -114,6 +139,8 @@
       title: "Modeling the sequential dissociative double ionization of O₂ by ultrashort intense infrared laser pulses"
       journal: "Physical Review A"
       volume: 107
+      number: 1
+      pages: "013112"
       doi: "10.1103/physreva.107.013112"
       url: "https://doi.org/10.1103/physreva.107.013112"
 
@@ -124,6 +151,8 @@
       title: "Density-matrix approach for sequential dissociative double ionization of molecules"
       journal: "Physical Review A"
       volume: 106
+      number: 2
+      pages: "023120"
       doi: "10.1103/physreva.106.023120"
       url: "https://doi.org/10.1103/physreva.106.023120"
 
@@ -134,6 +163,8 @@
       title: "Theory of dissociative recombination of molecular ions with competing direct and indirect mechanisms applied to CH⁺"
       journal: "Physical Review A"
       volume: 104
+      number: 4
+      pages: "042801"
       doi: "10.1103/physreva.104.042801"
       url: "https://doi.org/10.1103/physreva.104.042801"
     - key: Liu_2021
@@ -147,7 +178,8 @@
       title: "Quantitative study of conservative gradient force and non-conservative scattering force exerted on a spherical particle in optical tweezers"
       journal: "Optics Express"
       volume: 29
-      pages: 25377
+      number: 16
+      pages: "25377"
       doi: "10.1364/oe.434208"
       url: "https://doi.org/10.1364/oe.434208"
 
@@ -158,6 +190,8 @@
       title: "Vibrational excitation of N₂O by an electron impact and the role of the Renner-Teller effect in the process"
       journal: "Physical Review A"
       volume: 102
+      number: 3
+      pages: "032808"
       doi: "10.1103/physreva.102.032808"
       url: "https://doi.org/10.1103/physreva.102.032808"
     - key: Yuen_2020
@@ -165,6 +199,8 @@
       title: "Jahn-Teller effect in three-body recombination of hydrogen atoms"
       journal: "Physical Review A"
       volume: 101
+      number: 4
+      pages: "042709"
       doi: "10.1103/physreva.101.042709"
       url: "https://doi.org/10.1103/physreva.101.042709"
 
@@ -175,6 +211,8 @@
       title: "Cross sections for vibronic excitation of CH⁺ by low-energy electron impact"
       journal: "Physical Review A"
       volume: 100
+      number: 6
+      pages: "062711"
       doi: "10.1103/physreva.100.062711"
       url: "https://doi.org/10.1103/physreva.100.062711"
     - key: Ayouz_2019
@@ -182,6 +220,7 @@
       title: "Dissociative electron recombination of NH₂CHOH⁺ and implications for interstellar formamide abundance"
       journal: "Monthly Notices of the Royal Astronomical Society"
       volume: 490
+      number: 1
       pages: "1325–1331"
       doi: "10.1093/mnras/stz2658"
       url: "https://doi.org/10.1093/mnras/stz2658"
@@ -190,6 +229,7 @@
       title: "Electron-Induced Excitation, Recombination, and Dissociation of Molecular Ions Initiating the Formation of Complex Organic Molecules"
       journal: "ACS Earth and Space Chemistry"
       volume: 3
+      number: 11
       pages: "2376–2389"
       doi: "10.1021/acsearthspacechem.9b00159"
       url: "https://doi.org/10.1021/acsearthspacechem.9b00159"
@@ -198,7 +238,8 @@
       title: "Theoretical study of electron-induced vibrational excitation of NO₂"
       journal: "Plasma Sources Science and Technology"
       volume: 28
-      pages: 105017
+      number: 10
+      pages: "105017"
       doi: "10.1088/1361-6595/ab4b8a"
       url: "https://doi.org/10.1088/1361-6595/ab4b8a"
     - key: Yuen_2019c
@@ -206,6 +247,7 @@
       title: "The Role of Ozone Vibrational Resonances in the Isotope Exchange Reaction ¹⁶O¹⁶O + ¹⁸O → ¹⁸O¹⁶O + ¹⁶O: The Time-Dependent Picture"
       journal: "The Journal of Physical Chemistry A"
       volume: 123
+      number: 36
       pages: "7733–7743"
       doi: "10.1021/acs.jpca.9b06139"
       url: "https://doi.org/10.1021/acs.jpca.9b06139"
@@ -214,6 +256,7 @@
       title: "Dissociative recombination of CH₂NH₂⁺: a crucial link with interstellar methanimine and Titan ammonia"
       journal: "Monthly Notices of the Royal Astronomical Society"
       volume: 484
+      number: 1
       pages: "659–664"
       doi: "10.1093/mnras/sty3514"
       url: "https://doi.org/10.1093/mnras/sty3514"
@@ -222,6 +265,8 @@
       title: "Simplified model to treat the electron attachment of complex molecules: Application to H₂CN and the quest for the CN⁻ formation mechanism"
       journal: "Physical Review A"
       volume: 99
+      number: 3
+      pages: "032701"
       doi: "10.1103/physreva.99.032701"
       url: "https://doi.org/10.1103/physreva.99.032701"
 
@@ -232,6 +277,8 @@
       title: "Quantum-tunneling isotope-exchange reaction H₂ + D⁻ → HD + H⁻"
       journal: "Physical Review A"
       volume: 97
+      number: 2
+      pages: "022705"
       doi: "10.1103/physreva.97.022705"
       url: "https://doi.org/10.1103/physreva.97.022705"
 
@@ -242,6 +289,7 @@
       title: "Tailoring Optical Gradient Force and Optical Scattering and Absorption Force"
       journal: "Scientific Reports"
       volume: 7
+      number: 1
       doi: "10.1038/s41598-017-17874-1"
       url: "https://doi.org/10.1038/s41598-017-17874-1"
     - key: Yuen_2017
@@ -249,6 +297,7 @@
       title: "Theoretical study of resonances and recombination in low-energy collisions of three identical bosons"
       journal: "The European Physical Journal D"
       volume: 71
+      number: 1
       doi: "10.1140/epjd/e2016-70645-y"
       url: "https://doi.org/10.1140/epjd/e2016-70645-y"
 
@@ -259,5 +308,7 @@
       title: "Photoassociative production of ultracold heteronuclear YbLi* molecules"
       journal: "Physical Review A"
       volume: 94
+      number: 3
+      pages: "033413"
       doi: "10.1103/physreva.94.033413"
       url: "https://doi.org/10.1103/physreva.94.033413"

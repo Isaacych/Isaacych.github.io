@@ -37,12 +37,18 @@ body {
   @include breakpoint($large) {
     float: inline-end;
     width: calc(100% - #{$right-sidebar-width-narrow});
-    padding-inline-end: $right-sidebar-width-narrow;
+    // No right sidebar (TOC/related) is used on this site, so don't
+    // reserve $right-sidebar-width-narrow of dead space on the right;
+    // let the content run to the right edge of #main.
+    padding-inline-end: 1em;
   }
 
   @include breakpoint($x-large) {
     width: calc(100% - #{$right-sidebar-width});
-    padding-inline-end: $right-sidebar-width;
+    // No right sidebar (TOC/related) is used on this site, so don't
+    // reserve $right-sidebar-width of dead space on the right;
+    // let the content run to the right edge of #main.
+    padding-inline-end: 1em;
   }
 
   .page__inner-wrap {

@@ -343,6 +343,8 @@ def build_records(records):
         }
         if f.get("volume"):
             clean["volume"] = f["volume"]
+        if f.get("number"):
+            clean["number"] = f["number"]
         if f.get("pages"):
             clean["pages"] = f["pages"].replace("--", "–")
         raw_url = f.get("url", "")
@@ -386,10 +388,16 @@ def emit_yaml(groups):
         lines.append("  entries:")
         for e in group:
             lines.append("    - key: %s" % e["key"])
-            for field in ("authors", "title", "journal", "volume", "pages", "doi", "url"):
+            for field in ("authors", "title", "journal", "volume", "number", "pages", "doi", "url"):
                 if field in e:
                     val = e[field]
-                    if field in ("volume", "pages"):
+                    if field == "pages":
+                        # page/article numbers are identifiers: keep their
+                        # leading zeros (e.g. APS 043125) and 'L' letter
+                        # prefixes -- always quote so YAML/Ruby never reads
+                        # them as (octal) numbers.
+                        out = yaml_str(val)
+                    elif field in ("volume", "number"):
                         out = yaml_snumber(val)
                     else:
                         out = yaml_str(val)

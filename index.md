@@ -12,10 +12,10 @@ My research develops theory and computational models for how molecules respond t
 
 ## Research Highlights
 
-- **Strong-field ionization and excitation:** how tunneling ionization creates coherence and excited-state population in molecules
-- **Laser-induced electron diffraction (LIED):** identifying molecular isomers and imaging molecular structure
-- **Attosecond spectroscopy:** probing vibronic coherence and charge migration
-- **Sequential dissociative ionization:** modeling molecular break-up under short, intense laser pulses
+- **Strong-field ionization and excitation of molecules:** how tunneling ionization and excitation under short, intense laser pulses initiates, controls, and probes electron motion in molecular ions.
+- **Attosecond spectroscopy:** probing electron motion in molecules by absorbing a photon from or ionizing an electron by an isolated attosecond pulse.
+- **Laser-induced electron diffraction (LIED):** identifying molecular isomers and imaging molecular structure using a self-electron from the molecules created by an intense mid-infrared laser pulse.
+- **High harmonic spectroscopy:** probing sub-picometer nuclear motion with attosecond time resolution in molecules using high-order harmonic spectroscopy.
 
 ## Explore
 

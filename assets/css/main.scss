@@ -9,7 +9,7 @@ search: false
    The theme sets $doc-font-size (default 16px) on <html> and expresses
    all other text sizes in em, so lowering this one variable scales the
    whole site proportionally. Must be set BEFORE the imports below. */
-$doc-font-size: 14px;
+$doc-font-size: 12px;
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials

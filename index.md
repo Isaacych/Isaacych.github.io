@@ -8,7 +8,7 @@ header:
 
 I am an Assistant Professor of Physics at [Kennesaw State University](https://www.kennesaw.edu/), working in theoretical atomic, molecular, and optical (AMO) physics.
 
-My research develops theory and computational models for how molecules respond to intense, ultrashort laser pulses. The goal is to control and image electron and nuclear motion in molecules on attosecond to femtosecond timescales.
+My research develops theory and computational models for how molecules respond to intense, ultrashort laser pulses. The goal is to control and image electron and nuclear motion in molecules on attosecond to femtosecond timescales for applications in chemistry and photonics.
 
 ## Research Highlights
 

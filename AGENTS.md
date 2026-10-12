@@ -1,0 +1,122 @@
+# AGENTS.md
+
+Guidance for AI agents working in this repository. Read this before making changes.
+
+## What this repository is
+
+A personal research website for **Dr. Chi-Hong Isaac Yuen**, built with
+[Jekyll](https://jekyllrb.com/) and the **Minimal Mistakes** theme. It is a
+**project site** published on GitHub Pages.
+
+- Repo / remote: `Isaacych/website` (`https://github.com/Isaacych/website`)
+- Live URL: `https://isaacych.github.io/website/`
+- Deploy: the default branch (`master`) auto-deploys on every push via GitHub Pages.
+  There is **no CI workflow, Dockerfile, or local build step** — the build happens on
+  GitHub. Do not invent a local build pipeline.
+- The theme is **vendored in-repo** (`_layouts`, `_includes`, `_sass`), **not** pulled
+  as a gem/`remote_theme`. `_config.yml` intentionally has no `theme:` line.
+
+## Do NOT install Jekyll, Ruby gems, or run a local build
+
+This is the most important guardrail. **Do not** attempt to `gem install`/`bundle install`
+Jekyll or its dependencies, and do not try to build or serve the site locally.
+
+Reasons:
+
+- The local machine has **system Ruby 2.6.10**, which is too old for the current
+  `jekyll`/`rouge`/`public_suffix` stack (they require Ruby ≥ 2.7 / ≥ 3.2). Any
+  `gem install` attempt will fail and will leave stray artifacts (e.g. a new
+  `~/.gem` directory) that then have to be cleaned up.
+- `bundle install` is **broken** on purpose: `Gemfile` says `source; gemspec`, but the
+  referenced gemspec no longer exists, so bundler aborts.
+- The user has explicitly asked **not to** install Jekyll on this computer.
+- Changes take effect via the GitHub Pages build, not through a local run.
+
+**Instead**, verify changes by reasoning about the Jekyll theme from the files themselves
+(layouts, includes, `_config.yml`, `_data`). If a live check is truly needed, preview the
+already-deployed site at `https://isaacych.github.io/website/`.
+Never write to the system Ruby gem dir (`/Library/Ruby/Gems/...`) or create per-user
+gem directories.
+
+## Directory layout
+
+```
+index.md            Homepage. Use `layout: home`. (See "Homepage naming" below.)
+_pages/             Content pages (Markdown, `layout: single` by default via _config.yml):
+                    group.md, news.md, publications.md, research.md
+_layouts/           Minimal Mistakes layouts (theme). key ones:
+  home.html         Homepage layout — renders ONLY `{{ content }}` (Recent Posts was removed).
+  archive.html      Parent of home.html; renders hero + sidebar + content.
+  default.html      Outermost layout (html/head/body shell) — everything chains to it.
+  single.html       Layout for content pages and posts.
+  splash.html       Full-bleed hero layout (no sidebar).
+_includes/          ~50 partials used by the layouts (theme). Prefer not to edit unless needed.
+_sass/              Minimal Mistakes styles + skins (theme).
+_data/
+  navigation.yml    Site navigation / menu items.
+  ui-text.yml       i18n UI labels (e.g. "Recent posts", pagination). Multi-language.
+assets/             css/, js/, images/ — static site assets and header images.
+_config.yml         Site configuration (do not delete; see "Key config" below).
+Gemfile, Rakefile   Upstream theme build tooling — NOT functional locally. See above.
+package.json        Upstream theme artifact (uglify-js devDep). Not used for the site build.
+staticman.yml       Optional comment backend (comments are currently disabled).
+```
+
+There is currently **no `_posts/` directory** (the site has no blog posts yet). Post
+front matter defaults (`layout: single`, `author_profile`, `read_time`, `share`,
+`related`) are declared in `_config.yml` `defaults:`.
+
+## Key config (`_config.yml`)
+
+- `url: https://isaacych.github.io`, `baseurl: /website` — a GitHub Pages **project**
+  site, so all URLs are rooted at `/website/`.
+- `repository: Isaacych/website` — used by jekyll-paginate/sitemap.
+- Theme source is vendored; `minimal_mistakes_skin: "air"`.
+- `plugins: [jekyll-paginate, jekyll-sitemap, jekyll-gist, jekyll-feed, jekyll-include-cache]`,
+  mirrored in `whitelist:` for GitHub Pages (which builds with `--safe`, loading only
+  whitelisted plugins).
+- `paginate: 5` / `paginate_path: /page:num/` — **currently unused** (the Recent Posts
+  rendering that consumed it was removed from `home.html`). Safe to delete these and the
+  `jekyll-paginate` entries later, but harmless as-is.
+- Author details (name, email, avatar, bio, social/footer links) live under the top-level
+  `author:`, `footer:`, and `social:` blocks.
+
+## Homepage naming (do not revert)
+
+The homepage is `index.md`, **not** `index.html`. Jekyll only runs Markdown→HTML on
+`markdown_ext` files, so an `index.html` would have rendered its Markdown literally.
+Do not rename `index.md` back to `index.html`, and do not create a competing
+`index.html` at the repo root.
+
+## How to make typical changes
+
+- **Homepage content:** edit `index.md` body (below the front matter). Front matter uses
+  `layout: home`, `author_profile: true`, and a `header.image` + `image_description`.
+- **New page:** add a Markdown file to `_pages/` with a `layout: single` (and usually
+  `author_profile: true`) front matter and a `permalink:` (e.g. `/research/`).
+- **Edit existing pages:** `_pages/news.md`, `research.md`, `publications.md`,
+  `group.md` (all `layout: single`, custom `permalink`).
+- **Navigation menu:** `_data/navigation.yml`.
+- **Site-wide text/labels:** `_data/ui-text.yml`; author/footer/social: `_config.yml`.
+- **Labels/strings** are i18n-aware: look up `site.data.ui-text[locale]` in includes;
+  `site.locale` is `en-US`.
+- Front matter variables such as `relative_url`, `post.url`, `site.xxx` are rendered by
+  GitHub Pages — write Liquid, don't pre-resolve paths yourself.
+
+## Conventions and cautions
+
+- Files under `_layouts/`, `_includes/`, `_sass/` are **upstream Minimal Mistakes theme
+  code**. Prefer changing user content (`index.md`, `_pages/`, `_config.yml`, `_data/`).
+  When a theme file must change, keep edits minimal and consistent with the existing
+  Liquid style, and remember the change affects every page that chains through that layout.
+- `_config.yml` excludes a lot of theme dev cruft (`vendor`, `_docs`, `_test`,
+  `Gemfile`, `node_modules`, etc.); don't reintroduce it.
+- `_site/`, `Gemfile.lock`, `node_modules`, `*.gem`, `.DS_Store` are gitignored — never
+  commit generated output.
+- The Rakefile tasks (`rake preview`, `js`, `version`, …) run under bundler and will fail
+  locally for the reasons above; ignore them.
+
+## Committing
+
+- Work on `master`; push to `origin` — GitHub Pages deploys automatically.
+- Keep commits scoped and described in the imperative mood.

@@ -8,8 +8,8 @@ A personal research website for **Dr. Chi-Hong Isaac Yuen**, built with
 [Jekyll](https://jekyllrb.com/) and the **Minimal Mistakes** theme. It is a
 **project site** published on GitHub Pages.
 
-- Repo / remote: `Isaacych/website` (`https://github.com/Isaacych/website`)
-- Live URL: `https://isaacych.github.io/website/`
+- Repo / remote: `Isaacych/website` (`https://github.com/Isaacych/isaacych.github.io`)
+- Live URL: `https://isaacyuen.com/`
 - Deploy: the default branch (`master`) auto-deploys on every push via GitHub Pages.
   There is **no CI workflow, Dockerfile, or local build step** — the build happens on
   GitHub. Do not invent a local build pipeline.
@@ -34,7 +34,7 @@ Reasons:
 
 **Instead**, verify changes by reasoning about the Jekyll theme from the files themselves
 (layouts, includes, `_config.yml`, `_data`). If a live check is truly needed, preview the
-already-deployed site at `https://isaacych.github.io/website/`.
+already-deployed site at `https://isaacyuen.com/`.
 Never write to the system Ruby gem dir (`/Library/Ruby/Gems/...`) or create per-user
 gem directories.
 
@@ -72,7 +72,7 @@ front matter defaults (`layout: single`, `author_profile`, `read_time`, `share`,
 
 ## Key config (`_config.yml`)
 
-- `url: https://isaacych.github.io`, `baseurl: /website` — a GitHub Pages **project**
+- `url: https://isaacyuen.com/`, `baseurl: /website` — a GitHub Pages **project**
   site, so all URLs are rooted at `/website/`.
 - `repository: Isaacych/website` — used by jekyll-paginate/sitemap.
 - Theme source is vendored; `minimal_mistakes_skin: "air"`.

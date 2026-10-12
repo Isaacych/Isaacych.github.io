@@ -95,7 +95,12 @@ Do not rename `index.md` back to `index.html`, and do not create a competing
 ## How to make typical changes
 
 - **Homepage content:** edit `index.md` body (below the front matter). Front matter uses
-  `layout: home`, `author_profile: true`, and a `header.image` + `image_description`.
+  `layout: home`, `author_profile: true`, an explicit `title:` (e.g. `Home`), and a
+  `header.image` + `image_description`. The explicit `title` is REQUIRED: without it,
+  GitHub Pages' always-on `jekyll-titles-from-headings` plugin infers the page title
+  from the first heading (`## Welcome`), and `archive.html` then renders an
+  `<h1 class="page__title">` that duplicates the in-body `## Welcome` heading
+  (two "Welcome"s). Never rely on the inferred title for `index.md`.
 - **New page:** add a Markdown file to `_pages/` with a `layout: single` (and usually
   `author_profile: true`) front matter and a `permalink:` (e.g. `/research/`).
 - **Edit existing pages:** `_pages/news.md`, `research.md`, `publications.md`,

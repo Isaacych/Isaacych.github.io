@@ -1,6 +1,7 @@
 ---
 layout: home
 author_profile: true
+title: Home
 header:
   image: /assets/images/Qwen_image_2.1_00003.png
   image_description: Laser pulse waveform — attosecond electron dynamics summary

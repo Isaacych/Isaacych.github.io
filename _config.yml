@@ -11,7 +11,7 @@
 # `theme` nor `remote_theme` is needed.
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise", "catppuccin_latte", "catppuccin_mocha"
+minimal_mistakes_skin    : "mint" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise", "catppuccin_latte", "catppuccin_mocha"
 
 # Site Settings
 locale                   : "en-US"
@@ -114,7 +114,7 @@ analytics:
 author:
   name             : "C.H. Isaac Yuen"
   avatar           : "/assets/images/portrait.jpg"
-  bio              : "Assistant Professor of Physics at Kennesaw State University. Research interests: strong-field and attosecond science."
+  bio              : "Assistant Professor of Physics at Kennesaw State University."
   location         : "Marietta, Georgia, USA"
   email            : "cyuen2@kennesaw.edu"
   links:

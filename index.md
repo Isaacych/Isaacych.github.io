@@ -4,7 +4,8 @@ author_profile: true
 title: Welcome
 header:
   image: /assets/images/Qwen_image_2.1_00003.png
-  image_description: Laser pulse waveform — attosecond electron dynamics summary
+  image_description: An AI-generated image of an intense infrared laser pulse ionizing a triatomic molecule, emitting an electron and ultraviolet light.
+  caption: An AI-generated image of an intense infrared laser pulse ionizing a triatomic molecule, emitting an electron and ultraviolet light. Created by Qwen-image-2.1 on ComfyUI.
 ---
 
 I am an Assistant Professor of Physics at [Kennesaw State University](https://www.kennesaw.edu/), working in theoretical atomic, molecular, and optical (AMO) physics.

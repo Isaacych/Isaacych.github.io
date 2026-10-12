@@ -1,0 +1,263 @@
+# AUTO-GENERATED from assets/ref/works.bib by scripts/convert_bib.py
+# DO NOT EDIT BY HAND. Re-run the script after changing the .bib.
+
+- year: 2026
+  entries:
+    - key: Yuen_2026c
+      authors: "Yuen, Chi-Hong, Hosseini-Zavareh, Sajed, Alqasem, Aziz, Wang, Su-Ju, Ahlawat, Diksha, Genty, Frank, Liu, Mengdie, Holdsworth, Zander, Richard, Lily, Muddukrishna, Pavan, Mullins, Eric, Tang, Yaguo, Agostini, Pierre, DiMauro, Louis F., Lin, Chii-Dong, Blaga, Cosmin I."
+      title: "Identification of molecular isomers using laser-induced electron diffraction"
+      journal: "Communications Chemistry"
+      doi: "10.1038/s42004-026-02189-y"
+      url: "https://doi.org/10.1038/s42004-026-02189-y"
+    - key: Yuen_2026b
+      authors: "Yuen, Chi-Hong"
+      title: "Nonadiabatic theory for subcycle ionic dynamics in multielectron tunneling ionization"
+      journal: "Physical Review A"
+      volume: 113
+      doi: "10.1103/fwx1-w9f4"
+      url: "https://doi.org/10.1103/fwx1-w9f4"
+    - key: Wang_2026
+      authors: "Wang, Su-Ju, Lin, C. D., Yuen, Chi-Hong"
+      title: "Tunneling-ionization-assisted laser-induced electron diffraction for molecular differentiation: From isomers and structural analogs to dynamic systems"
+      journal: "Physical Review A"
+      volume: 113
+      doi: "10.1103/px3z-ttlq"
+      url: "https://doi.org/10.1103/px3z-ttlq"
+    - key: Yuen_2026a
+      authors: "Yuen, Chi-Hong"
+      title: "Enhanced excited-state population and coherence via adiabatic tunneling ionization and excitation"
+      journal: "Physical Review A"
+      volume: 113
+      doi: "10.1103/4yn6-sxct"
+      url: "https://doi.org/10.1103/4yn6-sxct"
+
+- year: 2025
+  entries:
+    - key: Weckwerth_2025
+      authors: "Weckwerth, Eleanor, Howard, Andrew J., Cheng, Chuan, Gabalski, Ian, Ghrist, Aaron M., Mohideen, Salma A., Lin, Chii-Dong, Yuen, Chi-Hong, Bucksbaum, Philip H."
+      title: "Optical interference effect in strong-field electronic coherence spectroscopy"
+      journal: "Physical Review A"
+      volume: 112
+      doi: "10.1103/rkdq-5skq"
+      url: "https://doi.org/10.1103/rkdq-5skq"
+    - key: Jia_2025
+      authors: "Jia, Yan-Wen, Wang, Hui-Hui, Yuen, C. H., Lin, C. D., Zhao, Song-Feng"
+      title: "Modeling the dissociative sequential triple ionization of nitrogen molecules by ultrashort intense infrared laser pulses"
+      journal: "Physical Review A"
+      volume: 112
+      doi: "10.1103/jfqj-c19k"
+      url: "https://doi.org/10.1103/jfqj-c19k"
+    - key: Yuen_2025
+      authors: "Yuen, C. H., Lin, C. D."
+      title: "Erratum: Coherence from multiorbital tunneling ionization of molecules [Phys. Rev. A 108, 023123 (2023)]"
+      journal: "Physical Review A"
+      volume: 111
+      doi: "10.1103/physreva.111.039904"
+      url: "https://doi.org/10.1103/physreva.111.039904"
+
+- year: 2024
+  entries:
+    - key: Jia_2024
+      authors: "Jia, Yan-Wen, Yuen, C. H., Jing, Wen-Quan, Zhou, Zhong-Yao, Lin, C. D., Zhao, Song-Feng"
+      title: "Improved model for the dissociative sequential double ionization of nitrogen molecules by an intense few-cycle infrared laser pulse"
+      journal: "Physical Review A"
+      volume: 110
+      doi: "10.1103/physreva.110.023112"
+      url: "https://doi.org/10.1103/physreva.110.023112"
+    - key: Jiang_2024
+      authors: "Jiang, Xianwu, Chen, Yingqi, Liu, Hainan, Yuen, Chi-Hong, Kokoouline, Viatcheslav"
+      title: "Process of dissociation of NH₃ by electron impact in low-temperature plasma and its isotope effect"
+      journal: "Physical Review A"
+      volume: 110
+      doi: "10.1103/physreva.110.l020803"
+      url: "https://doi.org/10.1103/physreva.110.l020803"
+    - key: He_2024
+      authors: "He, Lixin, Yuen, C. H., He, Yanqing, Sun, Siqi, Goetz, E., Le, Anh-Thu, Deng, Yu, Xu, Chengqing, Lan, Pengfei, Lu, Peixiang, Lin, C. D."
+      title: "Ultrafast Picometer-Resolved Molecular Structure Imaging by Laser-Induced High-Order Harmonics"
+      journal: "Physical Review Letters"
+      volume: 133
+      doi: "10.1103/physrevlett.133.023201"
+      url: "https://doi.org/10.1103/physrevlett.133.023201"
+    - key: Yuen_2024c
+      authors: "Yuen, Chi-Hong, Lin, Chii-Dong"
+      title: "Rotation in attosecond vibronic coherence spectroscopy for molecules"
+      journal: "Communications Physics"
+      volume: 7
+      doi: "10.1038/s42005-024-01607-8"
+      url: "https://doi.org/10.1038/s42005-024-01607-8"
+    - key: Yuen_2024b
+      authors: "Yuen, C. H., Lin, C. D."
+      title: "Theory of strong-field sequential double ionization of polyatomic molecules"
+      journal: "Physical Review A"
+      volume: 109
+      doi: "10.1103/physreva.109.033108"
+      url: "https://doi.org/10.1103/physreva.109.033108"
+    - key: Yuen_2024a
+      authors: "Yuen, C. H., Lin, C. D."
+      title: "Probing vibronic coherence in charge migration in molecules using strong-field sequential double ionization"
+      journal: "Physical Review A"
+      volume: 109
+      doi: "10.1103/physreva.109.l011101"
+      url: "https://doi.org/10.1103/physreva.109.l011101"
+
+- year: 2023
+  entries:
+    - key: Yuen_2023b
+      authors: "Yuen, C. H., Lin, C. D."
+      title: "Coherence from multiorbital tunneling ionization of molecules"
+      journal: "Physical Review A"
+      volume: 108
+      doi: "10.1103/physreva.108.023123"
+      url: "https://doi.org/10.1103/physreva.108.023123"
+    - key: Yuen_2023a
+      authors: "Yuen, C. H., Modak, P., Song, Yan, Zhao, Song-Feng, Lin, C. D."
+      title: "Modeling the sequential dissociative double ionization of O₂ by ultrashort intense infrared laser pulses"
+      journal: "Physical Review A"
+      volume: 107
+      doi: "10.1103/physreva.107.013112"
+      url: "https://doi.org/10.1103/physreva.107.013112"
+
+- year: 2022
+  entries:
+    - key: Yuen_2022
+      authors: "Yuen, C. H., Lin, C. D."
+      title: "Density-matrix approach for sequential dissociative double ionization of molecules"
+      journal: "Physical Review A"
+      volume: 106
+      doi: "10.1103/physreva.106.023120"
+      url: "https://doi.org/10.1103/physreva.106.023120"
+
+- year: 2021
+  entries:
+    - key: Jiang_2021
+      authors: "Xianwu Jiang, Josh Forer, Chi Hong Yuen, Mehdi Ayouz, Viatcheslav Kokoouline"
+      title: "Theory of dissociative recombination of molecular ions with competing direct and indirect mechanisms applied to CH⁺"
+      journal: "Physical Review A"
+      volume: 104
+      doi: "10.1103/physreva.104.042801"
+      url: "https://doi.org/10.1103/physreva.104.042801"
+    - key: Liu_2021
+      authors: "Hainan Liu, Xianwu Jiang, Chi Hong Yuen, Viatcheslav Kokoouline, Mehdi Ayouz"
+      title: "Formation of negative-ion resonance and dissociative attachment in collisions of NO₂ with electrons"
+      journal: "Journal of Physics B: Atomic, Molecular and Optical Physics"
+      doi: "10.1088/1361-6455/ac2c8b"
+      url: "https://doi.org/10.1088/1361-6455/ac2c8b"
+    - key: Li_2021
+      authors: "Li, Xiao, Zheng, Hongxia, Yuen, Chi Hong, Du, Junjie, Chen, Jun, Lin, Zhifang, Ng, Jack"
+      title: "Quantitative study of conservative gradient force and non-conservative scattering force exerted on a spherical particle in optical tweezers"
+      journal: "Optics Express"
+      volume: 29
+      pages: 25377
+      doi: "10.1364/oe.434208"
+      url: "https://doi.org/10.1364/oe.434208"
+
+- year: 2020
+  entries:
+    - key: Liu_2020
+      authors: "Liu, Hainan, Santos, Samantha Fonseca dos, Yuen, Chi Hong, Cortona, Pietro, Ayouz, Mehdi, Kokoouline, Viatcheslav"
+      title: "Vibrational excitation of N₂O by an electron impact and the role of the Renner-Teller effect in the process"
+      journal: "Physical Review A"
+      volume: 102
+      doi: "10.1103/physreva.102.032808"
+      url: "https://doi.org/10.1103/physreva.102.032808"
+    - key: Yuen_2020
+      authors: "Yuen, Chi Hong, Kokoouline, Viatcheslav"
+      title: "Jahn-Teller effect in three-body recombination of hydrogen atoms"
+      journal: "Physical Review A"
+      volume: 101
+      doi: "10.1103/physreva.101.042709"
+      url: "https://doi.org/10.1103/physreva.101.042709"
+
+- year: 2019
+  entries:
+    - key: Jiang_2019
+      authors: "Jiang, Xianwu, Yuen, Chi Hong, Cortona, Pietro, Ayouz, Mehdi, Kokoouline, Viatcheslav"
+      title: "Cross sections for vibronic excitation of CH⁺ by low-energy electron impact"
+      journal: "Physical Review A"
+      volume: 100
+      doi: "10.1103/physreva.100.062711"
+      url: "https://doi.org/10.1103/physreva.100.062711"
+    - key: Ayouz_2019
+      authors: "Ayouz, M A, Yuen, C H, Balucani, N, Ceccarelli, C, Schneider, I F, Kokoouline, V"
+      title: "Dissociative electron recombination of NH₂CHOH⁺ and implications for interstellar formamide abundance"
+      journal: "Monthly Notices of the Royal Astronomical Society"
+      volume: 490
+      pages: "1325–1331"
+      doi: "10.1093/mnras/stz2658"
+      url: "https://doi.org/10.1093/mnras/stz2658"
+    - key: Mezei_2019
+      authors: "Zsolt J. Mezei, Kalyan Chakrabarti, Michel Douglas Epée Epée, Ousmanou Motapon, Chi Hong Yuen, Mehdi A. Ayouz, Nicolas Douguet, Samantha Fonseca dos Santos, Viatcheslav Kokoouline, Ioan F. Schneider"
+      title: "Electron-Induced Excitation, Recombination, and Dissociation of Molecular Ions Initiating the Formation of Complex Organic Molecules"
+      journal: "ACS Earth and Space Chemistry"
+      volume: 3
+      pages: "2376–2389"
+      doi: "10.1021/acsearthspacechem.9b00159"
+      url: "https://doi.org/10.1021/acsearthspacechem.9b00159"
+    - key: Liu_2019
+      authors: "Liu, Hainan, Santos, Samantha Fonseca dos, Yuen, Chi Hong, Cortona, Pietro, Kokoouline, Viatcheslav, Ayouz, Mehdi"
+      title: "Theoretical study of electron-induced vibrational excitation of NO₂"
+      journal: "Plasma Sources Science and Technology"
+      volume: 28
+      pages: 105017
+      doi: "10.1088/1361-6595/ab4b8a"
+      url: "https://doi.org/10.1088/1361-6595/ab4b8a"
+    - key: Yuen_2019c
+      authors: "Chi Hong Yuen, David Lapierre, Fabien Gatti, Viatcheslav Kokoouline, Vladimir G. Tyuterev"
+      title: "The Role of Ozone Vibrational Resonances in the Isotope Exchange Reaction ¹⁶O¹⁶O + ¹⁸O → ¹⁸O¹⁶O + ¹⁶O: The Time-Dependent Picture"
+      journal: "The Journal of Physical Chemistry A"
+      volume: 123
+      pages: "7733–7743"
+      doi: "10.1021/acs.jpca.9b06139"
+      url: "https://doi.org/10.1021/acs.jpca.9b06139"
+    - key: Yuen_2019a
+      authors: "Yuen, C H, Ayouz, M A, Balucani, N, Ceccarelli, C, Schneider, I F, Kokoouline, V"
+      title: "Dissociative recombination of CH₂NH₂⁺: a crucial link with interstellar methanimine and Titan ammonia"
+      journal: "Monthly Notices of the Royal Astronomical Society"
+      volume: 484
+      pages: "659–664"
+      doi: "10.1093/mnras/sty3514"
+      url: "https://doi.org/10.1093/mnras/sty3514"
+    - key: Yuen_2019b
+      authors: "Yuen, C. H., Douguet, N., Fonseca dos Santos, S., Orel, A. E., Kokoouline, V."
+      title: "Simplified model to treat the electron attachment of complex molecules: Application to H₂CN and the quest for the CN⁻ formation mechanism"
+      journal: "Physical Review A"
+      volume: 99
+      doi: "10.1103/physreva.99.032701"
+      url: "https://doi.org/10.1103/physreva.99.032701"
+
+- year: 2018
+  entries:
+    - key: Yuen_2018
+      authors: "Yuen, Chi Hong, Ayouz, Mehdi, Endres, Eric S., Lakhamanskaya, Olga, Wester, Roland, Kokoouline, Viatcheslav"
+      title: "Quantum-tunneling isotope-exchange reaction H₂ + D⁻ → HD + H⁻"
+      journal: "Physical Review A"
+      volume: 97
+      doi: "10.1103/physreva.97.022705"
+      url: "https://doi.org/10.1103/physreva.97.022705"
+
+- year: 2017
+  entries:
+    - key: Du_2017
+      authors: "Du, Junjie, Yuen, Chi-Hong, Li, Xiao, Ding, Kun, Du, Guiqiang, Lin, Zhifang, Chan, C. T., Ng, Jack"
+      title: "Tailoring Optical Gradient Force and Optical Scattering and Absorption Force"
+      journal: "Scientific Reports"
+      volume: 7
+      doi: "10.1038/s41598-017-17874-1"
+      url: "https://doi.org/10.1038/s41598-017-17874-1"
+    - key: Yuen_2017
+      authors: "Yuen, Chi Hong, Kokoouline, Viatcheslav"
+      title: "Theoretical study of resonances and recombination in low-energy collisions of three identical bosons"
+      journal: "The European Physical Journal D"
+      volume: 71
+      doi: "10.1140/epjd/e2016-70645-y"
+      url: "https://doi.org/10.1140/epjd/e2016-70645-y"
+
+- year: 2016
+  entries:
+    - key: Roy_2016
+      authors: "Roy, Richard, Shrestha, Rajendra, Green, Alaina, Gupta, Subhadeep, Li, Ming, Kotochigova, Svetlana, Petrov, Alexander, Yuen, Chi Hong"
+      title: "Photoassociative production of ultracold heteronuclear YbLi* molecules"
+      journal: "Physical Review A"
+      volume: 94
+      doi: "10.1103/physreva.94.033413"
+      url: "https://doi.org/10.1103/physreva.94.033413"

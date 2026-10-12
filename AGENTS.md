@@ -55,7 +55,11 @@ _sass/              Minimal Mistakes styles + skins (theme).
 _data/
   navigation.yml    Site navigation / menu items.
   ui-text.yml       i18n UI labels (e.g. "Recent posts", pagination). Multi-language.
+  publications.yml  AUTO-GENERATED from assets/ref/works.bib by scripts/convert_bib.py.
+                    DO NOT EDIT BY HAND — re-run the script after changing the .bib.
 assets/             css/, js/, images/ — static site assets and header images.
+                    assets/ref/ holds the .bib source of truth; Jekyll ignores it.
+scripts/            Local generators (e.g. convert_bib.py); Jekyll ignores the dir.
 _config.yml         Site configuration (do not delete; see "Key config" below).
 Gemfile, Rakefile   Upstream theme build tooling — NOT functional locally. See above.
 package.json        Upstream theme artifact (uglify-js devDep). Not used for the site build.
@@ -102,6 +106,38 @@ Do not rename `index.md` back to `index.html`, and do not create a competing
   `site.locale` is `en-US`.
 - Front matter variables such as `relative_url`, `post.url`, `site.xxx` are rendered by
   GitHub Pages — write Liquid, don't pre-resolve paths yourself.
+
+## Publications page (generated from a .bib)
+
+The Publications page (`_pages/publications.md`) does not hand-list papers. The list is
+generated from the BibTeX source of truth `assets/ref/works.bib`:
+
+```
+assets/ref/works.bib  ──( python3 scripts/convert_bib.py )──▶  _data/publications.yml
+                                                                   │
+                 _includes/publications.html  renders  site.data.publications
+```
+
+Workflow when a paper is added/edited:
+
+1. Edit `assets/ref/works.bib` (the only source of truth).
+2. Run **`python3 scripts/convert_bib.py`** (pure stdlib — no installs, no Jekyll build).
+   It writes `_data/publications.yml` and prints a preview + a "problem check" so you can
+   eyeball the cleaned titles (the .bib titles carry MathML/`$LaTeX$` chemical formulas
+   that the script normalises; a few keys are hard-coded in `TITLE_OVERRIDES`).
+3. Commit the regenerated `_data/publications.yml` **and** the `.bib` together, plus
+   `scripts/convert_bib.py` if it changed.
+
+Guardrails:
+
+- **Do NOT hand-edit `_data/publications.yml`.** It is marked "AUTO-GENERATED / DO NOT
+  EDIT BY HAND" at the top; any manual change is overwritten on the next run.
+- Running `python3 scripts/convert_bib.py` is fine — it neither installs gems nor builds
+  Jekyll, unlike the forbidden local Jekyll steps above. `python3` is expected to exist
+  (a miniconda env is on the `phys` path); the script needs only the stdlib.
+- The `.bib`, the generator, and this planning doc are **excluded from the Jekyll build**
+  (`_config.yml` `exclude:` lists `scripts`, `assets/ref`, `plan.md`), so they stay in the
+  repo but are never published to the live site.
 
 ## Conventions and cautions
 

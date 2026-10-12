@@ -172,6 +172,10 @@ exclude:
   - tmp
   - /docs # ignore Minimal Mistakes /docs
   - /test # ignore Minimal Mistakes /test
+  # Internal tooling and source data — not part of the published site:
+  - scripts            # scripts/convert_bib.py (generator source)
+  - assets/ref         # assets/ref/works.bib (BibTeX source of truth)
+  - plan.md            # project planning doc — do not publish
 keep_files:
   - .git
   - .svn

@@ -21,8 +21,8 @@ author_profile: true
 
 ## Recent Alumni
 
-- Ya Gao (2025-2026) - Now at Virginia Commonwealth University
-- NSF REU students (2023-2025)
+- Ya Gao (2025-2026) - Now studying MS in Medical Physics at Virginia Commonwealth University
+- Nigel Parrish (High School Intern, Summer 2025) - Now studying BS in Physics at Georgia Tech
 
 ## Joining the Group
 

@@ -5,22 +5,21 @@ layout: single
 author_profile: true
 ---
 
-## Research Interests
-
-I work at the intersection of atomic, molecular, and optical physics, strong-field phenomena, and ultrafast molecular dynamics.
-
-My research focuses on:
-
-- Strong-field ionization and excitation
-- Molecular imaging using laser-induced electron diffraction
-- Attosecond and ultrafast spectroscopy
-- Charge migration and vibronic coherence
-- Sequential ionization and dissociation dynamics
-
 ## Current Research
 
-The research program centers on understanding how ultrashort intense laser fields drive electron dynamics in molecules and how those dynamics can be probed and controlled for molecular imaging and spectroscopy.
+Electron motion drives the redistribution of charge and energy in molecules on attosecond-to-
+femtosecond timescales and underlies phenomena ranging from charge migration and photochemical
+reactivity to quantum information and coherent control. Efficient control and diagnostic of electronic coherence, which drives the electron motion in molecules, are the keys.  
 
-## Collaborations
+## Creating and controlling electronic coherence in molecules
+- C.H. Yuen, Nonadiabatic theory for subcycle ionic dynamics in multielectron tunneling ionization, Physical Review A 113 (4), 043125 (2026)
 
-I collaborate with researchers in AMO physics, ultrafast science, and molecular dynamics across experimental and theoretical groups.
+- C.H. Yuen, Enhanced excited-state population and coherence via adiabatic tunneling ionization and excitation, Physical Review A 113 (1), 013125 (2026)
+
+## Probing electronic coherence in molecules
+
+- C.H. Yuen and C.D. Lin, Rotation in attosecond vibronic coherence spectroscopy for molecules, Communications Physics 7 (1) (2024)
+
+- C.H. Yuen and C.D. Lin, Theory of strong-field sequential double ionization of polyatomic molecules, Physical Review A 109 (3), 033108 (2024)
+
+- C.H. Yuen and C.D. Lin, Probing vibronic coherence in charge migration in molecules using strong-field sequential double ionization, Physical Review A 109 (1), L011101 (2024)

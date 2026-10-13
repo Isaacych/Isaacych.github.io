@@ -102,7 +102,7 @@ Electrons move through molecules on attosecond-to-femtosecond timescales, drivin
 
 - As nuclear wave packets overlap well at a later time, the electron motion resumes.
 
-- This kind of dynamics occurs for other diatomic molecules after ionization. But for polyatomic molecules, some nuclear wave packets may not return close to the equilibrium position.
+- **This kind of dynamics occurs for other diatomic molecules after ionization. But for polyatomic molecules, some nuclear wave packets may not return close to the equilibrium position. Can we find long-lived electronic coherence in polyatomic molecules?**
 
 ## Controlling the electronic coherence
 {: .cf}

@@ -8,7 +8,7 @@ A personal research website for **Dr. Chi-Hong Isaac Yuen**, built with
 [Jekyll](https://jekyllrb.com/) and the **Minimal Mistakes** theme. It is a
 **project site** published on GitHub Pages.
 
-- Repo / remote: `Isaacych/website` (`https://github.com/Isaacych/isaacych.github.io`)
+- Repo / remote: `Isaacych/isaacych.github.io` (`https://isaacyuen.com/`)
 - Live URL: `https://isaacyuen.com/`
 - Deploy: the default branch (`master`) auto-deploys on every push via GitHub Pages.
   There is **no CI workflow, Dockerfile, or local build step** — the build happens on
@@ -72,9 +72,9 @@ front matter defaults (`layout: single`, `author_profile`, `read_time`, `share`,
 
 ## Key config (`_config.yml`)
 
-- `url: https://isaacyuen.com/`, `baseurl: /website` — a GitHub Pages **project**
-  site, so all URLs are rooted at `/website/`.
-- `repository: Isaacych/website` — used by jekyll-paginate/sitemap.
+- `url: https://isaacyuen.com/`, `baseurl: ""` — a GitHub Pages **project**
+  site, so all URLs are rooted at `""`.
+- `repository: Isaacych/isaacych.github.io` — used by jekyll-paginate/sitemap.
 - Theme source is vendored; `minimal_mistakes_skin: "air"`.
 - `plugins: [jekyll-paginate, jekyll-sitemap, jekyll-gist, jekyll-feed, jekyll-include-cache]`,
   mirrored in `whitelist:` for GitHub Pages (which builds with `--safe`, loading only

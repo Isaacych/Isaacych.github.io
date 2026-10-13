@@ -15,12 +15,23 @@ gallery:
 
 Electrons move through molecules on attosecond-to-femtosecond timescales, driving the flow of charge and energy that governs chemical and quantum phenomena. Understanding and controlling the electronic coherence behind this motion is essential for directing charge migration, steering photochemical reactions, and harnessing quantum effects. My research develops theoretical tools to diagnose and control electronic coherence, opening new pathways toward controlling quantum dynamics in molecules. 
 
-## Creating and controlling electronic coherence in molecules
+## Creating electronic coherence in molecules
 
 {% include gallery class="tunneling-sequence" caption="Schematic of the multielectron tunneling ionization process: before, during, and after tunneling." %}
 
-- C.H. Yuen, Nonadiabatic theory for subcycle ionic dynamics in multielectron tunneling ionization, Physical Review A 113 (4), 043125 (2026)
+- Before the laser field arrives, all electrons are bound under the Coulomb potential. Suppose the active electron (solid purple circle) will be ionized.
 
+- The laser field arrives and bends the Coulomb potential, and the active electron is tunneling out. The remaining electrons are frozen.
+
+- After tunneling, the electron is strongly driven by the laser, while the laser could excite the hole state.
+
+- An electron in red circles could undergo the same process, forming a different hole state. Multielectron tunneling ionization thus create a superposition of ionic states and their electronic coherence.
+
+- Multielectron tunneling ionization at different timings lead to interference, which can strength or dampen electronic coherence.
+
+- Ref: C.H. Yuen, Nonadiabatic theory for subcycle ionic dynamics in multielectron tunneling ionization, Physical Review A 113 (4), 043125 (2026)
+
+## Controlling the electronic coherence
 - C.H. Yuen, Enhanced excited-state population and coherence via adiabatic tunneling ionization and excitation, Physical Review A 113 (1), 013125 (2026)
 
 ## Probing electronic coherence in molecules

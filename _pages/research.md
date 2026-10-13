@@ -29,7 +29,7 @@ Electrons move through molecules on attosecond-to-femtosecond timescales, drivin
 
 - Multielectron tunneling ionization thus creates a superposition of ionic states and their electronic coherence.
 
-## Example of nitrogen molecules
+## Example of an nitrogen molecule
 
 <div class="media-cluster align-right">
   <figure>

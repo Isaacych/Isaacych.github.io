@@ -55,9 +55,10 @@ figure.tunneling-sequence.third {
   }
 }
 
-/* A single figure constrained to one-third of the content-column width
-   (e.g. the electron-dynamics GIF on the Research page). Full width on
-   small screens; the caption spans the (narrowed) figure. */
+/* Constrain a single figure to one-third of the content-column width
+   (e.g. the electron-dynamics GIF on the Research page). Pair it with the
+   theme's `align-right` class to float the figure right so the surrounding
+   text wraps along its left; full width on small screens. */
 figure.one-third {
   @include breakpoint($small) {
     width: 33.3333%;

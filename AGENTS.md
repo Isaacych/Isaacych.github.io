@@ -126,13 +126,26 @@ Recurring patterns used on the content pages (especially `_pages/research.md`):
   small: the 800×800 research GIF was compressed 17 MB → 8.3 MB with
   `ffmpeg`'s two-pass palette mode (256 colours, `fps=5`); scaling down or
   fewer colours made it *larger*, so native size + fewer fps won.
-- **Float a figure right at one-third width so text wraps its left:** add the
-  theme's `align-right` plus the site-specific `one-third` class
-  (`class="align-right one-third"`), and put the figure include **above** the
-  text that should wrap (a float only wraps later content). `figure.one-third`
-  is defined in `assets/css/main.scss`; `align-right` ships with the theme and
-  floats right at the `$small` breakpoint. Add `{: .cf}` under the next heading
-  so it clears the float instead of wrapping beside it.
+- **Embed a video (MP4):** the theme's `figure` include only emits `<img>` —
+  it has no `<video>` support — so write the `<figure><video>…</video></figure>`
+  as raw HTML in the Markdown (Jekyll renders it; keep `relative_url` on the
+  `src`). Use `autoplay loop muted playsinline` so it plays inline and
+  automatically like a GIF: browsers block autoplay unless `muted` (fine —
+  `N2p.mp4` has no audio track), and `playsinline` stops iOS going fullscreen.
+  Add `preload="metadata"` so the page doesn't download the whole file up front.
+- **Two media side by side with text wrapping the pair:** wrap both `<figure>`s
+  in `<div class="media-cluster align-right">…</div>` placed **above** the text
+  that should wrap (a float only wraps later content). `.media-cluster` (defined
+  in `main.scss`) is a flex row floated right at two-thirds width, its two media
+  splitting the width evenly (each ~one-third); it stacks full-width below the
+  `$small` breakpoint. The Research page uses this for `N2p.mp4` + the GIF.
+  Add `{: .cf}` under the next heading so it clears the float.
+- **Float a single figure right at one-third width so text wraps its left:**
+  `class="align-right one-third"` on the figure include, placed above the text
+  to wrap. `figure.one-third` is defined in `assets/css/main.scss`; `align-right`
+  ships with the theme (floats right at `$small`). Add `{: .cf}` under the next
+  heading so it clears the float. (Superseded on the Research page by
+  `.media-cluster`, but the pattern and class remain available.)
 - **All figure captions are 12px** via a global `figure figcaption { font-size: 1em }`
   override in `main.scss` (the theme default is `$type-size-6` ≈ 9.6px).
 - **Sub/superscripts & chemical/state symbols:** there is **no MathJax/KaTeX**

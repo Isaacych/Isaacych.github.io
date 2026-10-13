@@ -29,7 +29,8 @@ Electrons move through molecules on attosecond-to-femtosecond timescales, drivin
 
 - Multielectron tunneling ionization thus creates a superposition of ionic states and their electronic coherence.
 
-Reference: C.H. Yuen, Nonadiabatic theory for subcycle ionic dynamics in multielectron tunneling ionization, Physical Review A 113 (4), 043125 (2026)
+Reference: 
+1. C.H. Yuen, Nonadiabatic theory for subcycle ionic dynamics in multielectron tunneling ionization, Physical Review A 113 (4), 043125 (2026)
 
 ## Example of an nitrogen molecule
 
@@ -106,15 +107,18 @@ Reference: C.H. Yuen, Nonadiabatic theory for subcycle ionic dynamics in multiel
 
 - As nuclear wave packets overlap well at a later time, the electron motion resumes.
 
-- **This kind of dynamics occurs for other diatomic molecules after ionization. But for polyatomic molecules, some nuclear wave packets may not return close to the equilibrium position. Can we find long-lived electronic coherence in polyatomic molecules?**
+- **This kind of dynamics occurs for other diatomic molecules after ionization. But for polyatomic molecules, some nuclear wave packets may not return close to the equilibrium position due to extra degrees of freedom. Can we find long-lived electronic coherence in polyatomic molecules?**
 
 Reference: 
 1. C.H. Yuen, Nonadiabatic theory for subcycle ionic dynamics in multielectron tunneling ionization, Physical Review A 113 (4), 043125 (2026)
 2. C.H. Yuen and C.D. Lin, Coherence from multiorbital tunneling ionization of molecules, Physical Review A 108 (2), 023123 (2023)
 
 ## Controlling the electronic coherence
-{: .cf}
-- C.H. Yuen, Enhanced excited-state population and coherence via adiabatic tunneling ionization and excitation, Physical Review A 113 (1), 013125 (2026)
+
+As mentioned above, multielectron tunneling ionization creates electronic coherence in ionic states. The coherence created at different times would interfere to strengthen or dampen the amplitude. Can we control the timing to amplify it significantly?
+
+Reference:
+1. C.H. Yuen, Enhanced excited-state population and coherence via adiabatic tunneling ionization and excitation, Physical Review A 113 (1), 013125 (2026)
 
 ## Probing electronic coherence in molecules
 

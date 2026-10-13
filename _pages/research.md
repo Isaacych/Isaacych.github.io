@@ -29,6 +29,8 @@ Electrons move through molecules on attosecond-to-femtosecond timescales, drivin
 
 - Multielectron tunneling ionization thus creates a superposition of ionic states and their electronic coherence.
 
+Reference: C.H. Yuen, Nonadiabatic theory for subcycle ionic dynamics in multielectron tunneling ionization, Physical Review A 113 (4), 043125 (2026)
+
 ## Example of an nitrogen molecule
 
 <div class="media-cluster align-right">

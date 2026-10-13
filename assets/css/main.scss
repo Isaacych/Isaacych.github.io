@@ -33,11 +33,16 @@ $doc-font-size: 12px;
   }
 }
 
+/* Figure captions: bump every figure caption from the theme's
+   $type-size-6 (~9.6px at the 12px base) up to the 12px body text size. */
+figure figcaption {
+  font-size: 1em; // 12px at the 12px base, same as body text
+}
+
 /* Research page: before/during/after tunneling gallery. The theme's `third`
    gallery layout subtracts 0.5em from each image's 33.33% column, leaving
    gaps; undo that so the three panels sit flush. Also remove the image
-   border-radius and bottom margins so the panels touch seamlessly, and bump
-   the caption from $type-size-6 (~9.6px) up to the 12px body text size. */
+   border-radius and bottom margins so the panels touch seamlessly. */
 figure.tunneling-sequence.third {
   > a,
   > img {
@@ -48,8 +53,13 @@ figure.tunneling-sequence.third {
     margin-bottom: 0;
     border-radius: 0;
   }
+}
 
-  figcaption {
-    font-size: 1em; // 12px at the 12px base, same as body text
+/* A single figure constrained to one-third of the content-column width
+   (e.g. the electron-dynamics GIF on the Research page). Full width on
+   small screens; the caption spans the (narrowed) figure. */
+figure.one-third {
+  @include breakpoint($small) {
+    width: 33.3333%;
   }
 }

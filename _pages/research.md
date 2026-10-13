@@ -31,7 +31,7 @@ Electrons move through molecules on attosecond-to-femtosecond timescales, drivin
 
 - Reference: C.H. Yuen, Nonadiabatic theory for subcycle ionic dynamics in multielectron tunneling ionization, Physical Review A 113 (4), 043125 (2026)
 
-{% include figure image_path="/assets/images/45_hole_dyn.gif" alt="Electron dynamics in N2+ molecule initiated by an intense few-cycle infrared laser" caption="Electron dynamics in N$_2^+$ molecule initiated by an intense few-cycle infrared laser." %}
+{% include figure image_path="/assets/images/45_hole_dyn.gif" class="one-third" alt="Electron dynamics in N2+ molecule initiated by an intense few-cycle infrared laser" caption="Electron dynamics in N<sub>2</sub><sup>+</sup> molecule initiated by an intense few-cycle infrared laser." %}
 
 ## Controlling the electronic coherence
 - C.H. Yuen, Enhanced excited-state population and coherence via adiabatic tunneling ionization and excitation, Physical Review A 113 (1), 013125 (2026)

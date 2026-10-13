@@ -36,7 +36,7 @@ Electrons move through molecules on attosecond-to-femtosecond timescales, drivin
     <video autoplay loop muted playsinline preload="metadata">
       <source src="{{ '/assets/images/N2p.mp4' | relative_url }}" type="video/mp4">
     </video>
-    <figcaption>Nuclear and electronic dynamics of N<sub>2</sub><sup>+</sup>.</figcaption>
+    <figcaption>Nuclear dynamics of N<sub>2</sub><sup>+</sup>. Vertical line indicates the equilibrium distance of N<sub>2</sub>.</figcaption>
   </figure>
   <figure>
     <img src="{{ '/assets/images/45_hole_dyn.gif' | relative_url }}" alt="Electron dynamics in N2+ molecule initiated by an intense few-cycle infrared laser">
@@ -44,7 +44,17 @@ Electrons move through molecules on attosecond-to-femtosecond timescales, drivin
   </figure>
 </div>
 
-- As an example, when a N<sub>2</sub> molecule is tunnel ionized, it could form the <em>X</em><sup>2</sup>Σ<sub>g</sub><sup>+</sup>, <em>A</em><sup>2</sup>Π<sub>u</sub>, and <em>B</em><sup>2</sup>Σ<sub>u</sub><sup>+</sup> states of N<sub>2</sub><sup>+</sup>. Difference in the nuclear motion of the respective states leading to a varying electronic coherence.
+- As an example, when a N<sub>2</sub> molecule is tunnel ionized, it could form the <em>X</em><sup>2</sup>Σ<sub>g</sub><sup>+</sup> (red curve), <em>A</em><sup>2</sup>Π<sub>u</sub> (blue curve), and <em>B</em><sup>2</sup>Σ<sub>u</sub><sup>+</sup> (green curve) states of N<sub>2</sub><sup>+</sup>.
+
+- The nuclear wave packet moves around the minimal of the potential after the end of tunneling at <em>t</em> = 12 fs.
+
+- Difference in the nuclear motion of the respective states leading to a varying electronic coherence which is proportional to the nuclear overlap.
+
+- After around <em>t</em> = 20 fs, the nuclear wave packet of the <em>A</em><sup>2</sup>Π<sub>u</sub> state has little overlap with the other two states, so that the electron motion pauses.
+
+- As nuclear wave packets overlap well at a later time, the electron motion resumes.
+
+- This kind of dynamics occur for other diatomic molecules after ionization. But for polyatomic molecules, some nuclear wave packets may not return close to the equilibrium position.
 
 ## Controlling the electronic coherence
 {: .cf}

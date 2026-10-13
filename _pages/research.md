@@ -108,6 +108,10 @@ Reference: C.H. Yuen, Nonadiabatic theory for subcycle ionic dynamics in multiel
 
 - **This kind of dynamics occurs for other diatomic molecules after ionization. But for polyatomic molecules, some nuclear wave packets may not return close to the equilibrium position. Can we find long-lived electronic coherence in polyatomic molecules?**
 
+Reference: 
+1. C.H. Yuen, Nonadiabatic theory for subcycle ionic dynamics in multielectron tunneling ionization, Physical Review A 113 (4), 043125 (2026)
+2. C.H. Yuen and C.D. Lin, Coherence from multiorbital tunneling ionization of molecules, Physical Review A 108 (2), 023123 (2023)
+
 ## Controlling the electronic coherence
 {: .cf}
 - C.H. Yuen, Enhanced excited-state population and coherence via adiabatic tunneling ionization and excitation, Physical Review A 113 (1), 013125 (2026)

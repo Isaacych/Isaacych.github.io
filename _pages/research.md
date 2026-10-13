@@ -3,13 +3,21 @@ title: "Research"
 permalink: /research/
 layout: single
 author_profile: true
+classes: wide
+gallery:
+  - image_path: /assets/images/before_tunneling.svg
+    alt: "Before tunneling ionization"
+  - image_path: /assets/images/during_tunneling.svg
+    alt: "During tunneling ionization"
+  - image_path: /assets/images/after_tunneling.svg
+    alt: "After tunneling ionization"
 ---
 
 Electrons move through molecules on attosecond-to-femtosecond timescales, driving the flow of charge and energy that governs chemical and quantum phenomena. Understanding and controlling the electronic coherence behind this motion is essential for directing charge migration, steering photochemical reactions, and harnessing quantum effects. My research develops theoretical tools to diagnose and control electronic coherence, opening new pathways toward controlling quantum dynamics in molecules. 
 
 ## Creating and controlling electronic coherence in molecules
 
-{% include figure image_path="/assets/images/after_tunneling.svg" alt="Schematic of the multielectron tunneling ionization process" caption="Schematic of the multielectron tunneling ionization process." %}
+{% include gallery caption="Schematic of the multielectron tunneling ionization process: before, during, and after tunneling." %}
 
 - C.H. Yuen, Nonadiabatic theory for subcycle ionic dynamics in multielectron tunneling ionization, Physical Review A 113 (4), 043125 (2026)
 

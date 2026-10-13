@@ -17,7 +17,7 @@ Electrons move through molecules on attosecond-to-femtosecond timescales, drivin
 
 ## Creating and controlling electronic coherence in molecules
 
-{% include gallery caption="Schematic of the multielectron tunneling ionization process: before, during, and after tunneling." %}
+{% include gallery class="tunneling-sequence" caption="Schematic of the multielectron tunneling ionization process: before, during, and after tunneling." %}
 
 - C.H. Yuen, Nonadiabatic theory for subcycle ionic dynamics in multielectron tunneling ionization, Physical Review A 113 (4), 043125 (2026)
 

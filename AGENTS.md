@@ -106,6 +106,12 @@ Do not rename `index.md` back to `index.html`, and do not create a competing
 - **Edit existing pages:** `_pages/news.md`, `research.md`, `publications.md`,
   `group.md` (all `layout: single`, custom `permalink`).
 - **Navigation menu:** `_data/navigation.yml`.
+- **Site-wide CSS overrides:** `assets/css/main.scss` — site-wide font size
+  (`$doc-font-size: 12px`, set before the theme imports) and custom overrides
+  appended after the imports (hero caption, masthead sizes, the research
+  page's `figure.tunneling-sequence` gap-less gallery, etc.). This is the
+  supported place for style tweaks; don't edit `_sass/` partials for site-
+  specific changes.
 - **Site-wide text/labels:** `_data/ui-text.yml`; author/footer/social: `_config.yml`.
 - **Labels/strings** are i18n-aware: look up `site.data.ui-text[locale]` in includes;
   `site.locale` is `en-US`.

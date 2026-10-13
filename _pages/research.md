@@ -5,8 +5,6 @@ layout: single
 author_profile: true
 ---
 
-## Current Research
-
 Electron motion drives the redistribution of charge and energy in molecules on attosecond-to-
 femtosecond timescales and underlies phenomena ranging from charge migration and photochemical
 reactivity to quantum information and coherent control. Efficient control and diagnostic of electronic coherence, which drives the electron motion in molecules, are the keys.  

@@ -12,7 +12,7 @@ gallery:
   - image_path: /assets/images/after_tunneling.svg
     alt: "After tunneling ionization"
 gallery_buildup:
-  - image_path: /assets/images/two-level.png
+  - image_path: /assets/images/two-level.svg
     alt: "Effective two-level system of the nitrogen molecular ion"
   - image_path: /assets/images/buildup-phase.png
     alt: "Subcycle buildup of the electronic coherence at 1341 nm and 1644 nm"

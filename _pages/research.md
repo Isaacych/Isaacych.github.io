@@ -31,9 +31,20 @@ Electrons move through molecules on attosecond-to-femtosecond timescales, drivin
 
 - Reference: C.H. Yuen, Nonadiabatic theory for subcycle ionic dynamics in multielectron tunneling ionization, Physical Review A 113 (4), 043125 (2026)
 
-{% include figure image_path="/assets/images/45_hole_dyn.gif" class="align-right one-third" alt="Electron dynamics in N2+ molecule initiated by an intense few-cycle infrared laser" caption="Electron dynamics in N<sub>2</sub><sup>+</sup> molecule initiated by an intense few-cycle infrared laser." %}
+<div class="media-cluster align-right">
+  <figure>
+    <video autoplay loop muted playsinline preload="metadata">
+      <source src="{{ '/assets/images/N2p.mp4' | relative_url }}" type="video/mp4">
+    </video>
+    <figcaption>Nuclear and electronic dynamics of N<sub>2</sub><sup>+</sup>.</figcaption>
+  </figure>
+  <figure>
+    <img src="{{ '/assets/images/45_hole_dyn.gif' | relative_url }}" alt="Electron dynamics in N2+ molecule initiated by an intense few-cycle infrared laser">
+    <figcaption>Electron dynamics in N<sub>2</sub><sup>+</sup> molecule initiated by an intense few-cycle infrared laser.</figcaption>
+  </figure>
+</div>
 
-- As an example, when a N<sub>2</sub> molecule is tunnel ionized, it could form the <em>X</em><sup>2</sup>Σ<sub>g</sub><sup>+</sup>,  <em>A</em><sup>2</sup>Π<sub>u</sub>, and  <em>B</em><sup>2</sup>Σ<sub>u</sub><sup>+</sup> states of N<sub>2</sub><sup>+</sup>. Difference in the nuclear motion of the respective states leading to a varying electronic coherence. 
+- As an example, when a N<sub>2</sub> molecule is tunnel ionized, it could form the <em>X</em><sup>2</sup>Σ<sub>g</sub><sup>+</sup>, <em>A</em><sup>2</sup>Π<sub>u</sub>, and <em>B</em><sup>2</sup>Σ<sub>u</sub><sup>+</sup> states of N<sub>2</sub><sup>+</sup>. Difference in the nuclear motion of the respective states leading to a varying electronic coherence.
 
 ## Controlling the electronic coherence
 {: .cf}

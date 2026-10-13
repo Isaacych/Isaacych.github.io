@@ -64,3 +64,32 @@ figure.one-third {
     width: 33.3333%;
   }
 }
+
+/* Research page: the N2p video and the electron-dynamics GIF sit side by
+   side as a unit, floated right (with the theme's `align-right`) so the
+   surrounding text wraps along the cluster's left edge. The two media split
+   the cluster width evenly; the cluster degrades to stacked full-width media
+   on small screens. The theme's `align-right` only floats at the `$small`
+   breakpoint, so the cluster is full width (media stacked) below it. */
+.media-cluster {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 1em;
+
+  @include breakpoint($small) {
+    width: 66.6666%; // two-thirds of the column, leaving one third for text
+  }
+
+  figure {
+    flex: 1 1 0; // the two media split the cluster width evenly
+    min-width: 180px; // stack the media below this
+    margin: 0;
+  }
+
+  video,
+  img {
+    width: 100%;
+    display: block;
+  }
+}

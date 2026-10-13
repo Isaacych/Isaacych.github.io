@@ -11,6 +11,13 @@ gallery:
     alt: "During tunneling ionization"
   - image_path: /assets/images/after_tunneling.svg
     alt: "After tunneling ionization"
+gallery_buildup:
+  - image_path: /assets/images/two-level.png
+    alt: "Effective two-level system of the nitrogen molecular ion"
+  - image_path: /assets/images/buildup-phase.png
+    alt: "Subcycle buildup of the electronic coherence at 1341 nm and 1644 nm"
+  - image_path: /assets/images/coh-amp.png
+    alt: "Coherence amplitude as a function of laser intensity and wavelength"
 ---
 
 Electrons move through molecules on attosecond-to-femtosecond timescales, driving the flow of charge and energy that governs chemical and quantum phenomena. Understanding and controlling the electronic coherence behind this motion is essential for directing charge migration, steering photochemical reactions, and harnessing quantum effects. My research develops theoretical tools to diagnose and control electronic coherence, opening new pathways toward controlling quantum dynamics in molecules. 
@@ -115,9 +122,15 @@ Reference:
 
 ## Controlling the electronic coherence
 
+{% include gallery id="gallery_buildup" class="tunneling-sequence" caption="Left: An effective two-level system formed by the <em>X</em><sup>2</sup>Σ<sub>g</sub><sup>+</sup> and <em>B</em><sup>2</sup>Σ<sub>u</sub><sup>+</sup> states of N<sub>2</sub><sup>+</sup>. Middle: Buildup of the electronic coherence at 1341 nm and 1644 nm. Right: Coherence amplitude as a function of laser intensity and wavelength, where the red dashed lines mark the constructive-buildup condition." %}
+
 As mentioned above, multielectron tunneling ionization creates electronic coherence in ionic states. The coherence created at different times would interfere to strengthen or dampen the amplitude. Can we control the timing to amplify it significantly?
 
 When the N<sub>2</sub> molecule is aligned with the laser polarization, tunnel ionization and excitation predominantly forms the <em>X</em><sup>2</sup>Σ<sub>g</sub><sup>+</sup> and <em>B</em><sup>2</sup>Σ<sub>u</sub><sup>+</sup> states of N<sub>2</sub><sup>+</sup>. As a result, we have an effective two-level system.
+
+When the laser frequency is much smaller than the energy separation between the <em>X</em><sup>2</sup>Σ<sub>g</sub><sup>+</sup> and <em>B</em><sup>2</sup>Σ<sub>u</sub><sup>+</sup> states, we enter the **adiabatic** regime for strong-field excitation. 
+
+The condition for constructive coherence buildup follows approximately as <em>E</em><sub>XB</sub> + <em>α</em> = (2<em>n</em> + 1)<em>ω</em>, while the destructive coherence buildup follows <em>E</em><sub>XB</sub> + <em>α</em> = 2<em>nω</em>.
 
 Reference:
 1. C.H. Yuen, Enhanced excited-state population and coherence via adiabatic tunneling ionization and excitation, Physical Review A 113 (1), 013125 (2026)

@@ -115,6 +115,31 @@ Do not rename `index.md` back to `index.html`, and do not create a competing
 - **Site-wide text/labels:** `_data/ui-text.yml`; author/footer/social: `_config.yml`.
 - **Labels/strings** are i18n-aware: look up `site.data.ui-text[locale]` in includes;
   `site.locale` is `en-US`.
+
+### Figures, sizing, floats, and math
+
+Recurring patterns used on the content pages (especially `_pages/research.md`):
+
+- **Embed a single image/GIF:** use the theme's figure include, e.g.
+  `{% include figure image_path="/assets/images/foo.gif" class="..." alt="..." caption="..." %}`.
+  Animated GIFs auto-play in the browser — no extra code needed. Keep GIFs
+  small: the 800×800 research GIF was compressed 17 MB → 8.3 MB with
+  `ffmpeg`'s two-pass palette mode (256 colours, `fps=5`); scaling down or
+  fewer colours made it *larger*, so native size + fewer fps won.
+- **Float a figure right at one-third width so text wraps its left:** add the
+  theme's `align-right` plus the site-specific `one-third` class
+  (`class="align-right one-third"`), and put the figure include **above** the
+  text that should wrap (a float only wraps later content). `figure.one-third`
+  is defined in `assets/css/main.scss`; `align-right` ships with the theme and
+  floats right at the `$small` breakpoint. Add `{: .cf}` under the next heading
+  so it clears the float instead of wrapping beside it.
+- **All figure captions are 12px** via a global `figure figcaption { font-size: 1em }`
+  override in `main.scss` (the theme default is `$type-size-6` ≈ 9.6px).
+- **Sub/superscripts & chemical/state symbols:** there is **no MathJax/KaTeX**
+  on the site, so `$...$` never renders — do NOT use it. Use inline HTML
+  instead: `<sub>`/`<sup>` for sub/superscripts, `<em>` for italic state
+  letters, and Unicode for Greek, e.g. `N<sub>2</sub><sup>+</sup>` → N₂⁺ and
+  `<em>X</em><sup>2</sup>Σ<sub>g</sub><sup>+</sup>` → *X*²Σ_g⁺.
 - Front matter variables such as `relative_url`, `post.url`, `site.xxx` are rendered by
   GitHub Pages — write Liquid, don't pre-resolve paths yourself.
 

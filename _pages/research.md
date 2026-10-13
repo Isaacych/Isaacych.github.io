@@ -5,11 +5,12 @@ layout: single
 author_profile: true
 ---
 
-Electron motion drives the redistribution of charge and energy in molecules on attosecond-to-
-femtosecond timescales and underlies phenomena ranging from charge migration and photochemical
-reactivity to quantum information and coherent control. Efficient control and diagnostic of electronic coherence, which drives the electron motion in molecules, are the keys.  
+Electrons move through molecules on attosecond-to-femtosecond timescales, driving the flow of charge and energy that governs chemical and quantum phenomena. Understanding and controlling the electronic coherence behind this motion is essential for directing charge migration, steering photochemical reactions, and harnessing quantum effects. My research develops theoretical tools to diagnose and control electronic coherence, opening new pathways toward controlling quantum dynamics in molecules. 
 
 ## Creating and controlling electronic coherence in molecules
+
+{% include figure image_path="/assets/images/after_tunneling.svg" alt="Schematic of the multielectron tunneling ionization process" caption="Schematic of the multielectron tunneling ionization process." %}
+
 - C.H. Yuen, Nonadiabatic theory for subcycle ionic dynamics in multielectron tunneling ionization, Physical Review A 113 (4), 043125 (2026)
 
 - C.H. Yuen, Enhanced excited-state population and coherence via adiabatic tunneling ionization and excitation, Physical Review A 113 (1), 013125 (2026)

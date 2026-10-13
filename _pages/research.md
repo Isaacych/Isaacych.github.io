@@ -29,6 +29,8 @@ Electrons move through molecules on attosecond-to-femtosecond timescales, drivin
 
 - Multielectron tunneling ionization thus creates a superposition of ionic states and their electronic coherence.
 
+## Example of nitrogen molecules
+
 <div class="media-cluster align-right">
   <figure>
     <video autoplay loop muted playsinline preload="metadata" class="synced-media">
@@ -92,9 +94,9 @@ Electrons move through molecules on attosecond-to-femtosecond timescales, drivin
 })();
 </script>
 
-- As an example, when an N<sub>2</sub> molecule is tunnel ionized, it could form the <em>X</em><sup>2</sup>Σ<sub>g</sub><sup>+</sup> (red curve), <em>A</em><sup>2</sup>Π<sub>u</sub> (blue curve), and <em>B</em><sup>2</sup>Σ<sub>u</sub><sup>+</sup> (green curve) states of N<sub>2</sub><sup>+</sup>.
+- When an N<sub>2</sub> molecule is tunnel ionized by an intense few-cycle infrared pulse, it could form the <em>X</em><sup>2</sup>Σ<sub>g</sub><sup>+</sup> (red curve), <em>A</em><sup>2</sup>Π<sub>u</sub> (blue curve), and <em>B</em><sup>2</sup>Σ<sub>u</sub><sup>+</sup> (green curve) states of N<sub>2</sub><sup>+</sup>.
 
-- The nuclear wave packet moves around the minimum of the potential after the end of tunneling at <em>t</em> = 12 fs.
+- The nuclear wave packet moves around the minimum of the potential after the end of pulse at <em>t</em> = 12 fs.
 
 - Differences in the nuclear motion of the respective states lead to a varying electronic coherence which is proportional to the nuclear overlap.
 

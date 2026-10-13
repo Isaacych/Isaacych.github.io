@@ -117,6 +117,8 @@ Reference:
 
 As mentioned above, multielectron tunneling ionization creates electronic coherence in ionic states. The coherence created at different times would interfere to strengthen or dampen the amplitude. Can we control the timing to amplify it significantly?
 
+When the N<sub>2</sub> molecule is aligned with the laser polarization, tunnel ionization and excitation predominantly forms the <em>X</em><sup>2</sup>Σ<sub>g</sub><sup>+</sup> and <em>B</em><sup>2</sup>Σ<sub>u</sub><sup>+</sup> states of N<sub>2</sub><sup>+</sup>. As a result, we have an effective two-level system.
+
 Reference:
 1. C.H. Yuen, Enhanced excited-state population and coherence via adiabatic tunneling ionization and excitation, Physical Review A 113 (1), 013125 (2026)
 

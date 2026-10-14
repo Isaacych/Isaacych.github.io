@@ -28,7 +28,7 @@ Electrons move through molecules on attosecond-to-femtosecond timescales, drivin
 
 - Before the laser field arrives, all electrons are bound under the Coulomb potential. Suppose the active electron (solid purple circle) will be ionized.
 
-- The laser field arrives and bends the Coulomb potential, and the active electron is tunneling out. The remaining electrons are frozen.
+- The laser field arrives and bends the Coulomb potential, and the active electron tunnels out. The remaining electrons are frozen.
 
 - After tunneling, the ionized electron is mainly driven by the laser, while the laser can excite the hole state.
 
@@ -39,7 +39,7 @@ Electrons move through molecules on attosecond-to-femtosecond timescales, drivin
 Reference: 
 1. C.H. Yuen, Nonadiabatic theory for subcycle ionic dynamics in multielectron tunneling ionization, Physical Review A 113 (4), 043125 (2026)
 
-## Example of an nitrogen molecule
+## Example of a nitrogen molecule
 
 <div class="media-cluster align-right">
   <figure>
@@ -104,11 +104,11 @@ Reference:
 })();
 </script>
 
-- When an N<sub>2</sub> molecule is tunnel ionized by an intense few-cycle infrared pulse, it could form the <em>X</em><sup>2</sup>Σ<sub>g</sub><sup>+</sup> (red curve), <em>A</em><sup>2</sup>Π<sub>u</sub> (blue curve), and <em>B</em><sup>2</sup>Σ<sub>u</sub><sup>+</sup> (green curve) states of N<sub>2</sub><sup>+</sup>.
+- When an N<sub>2</sub> molecule is tunnel ionized by an intense few-cycle infrared pulse, it can form the <em>X</em><sup>2</sup>Σ<sub>g</sub><sup>+</sup> (red curve), <em>A</em><sup>2</sup>Π<sub>u</sub> (blue curve), and <em>B</em><sup>2</sup>Σ<sub>u</sub><sup>+</sup> (green curve) states of N<sub>2</sub><sup>+</sup>.
 
-- The nuclear wave packet moves around the minimum of the potential after the end of pulse at <em>t</em> = 12 fs.
+- The nuclear wave packet moves around the minimum of the potential after the end of the pulse at <em>t</em> = 12 fs.
 
-- Differences in the nuclear motion of the respective states lead to a varying electronic coherence which is proportional to the nuclear overlap.
+- Differences in the nuclear motion of the respective states lead to a varying electronic coherence that is proportional to the nuclear overlap.
 
 - After around <em>t</em> = 20 fs, the nuclear wave packet of the <em>A</em><sup>2</sup>Π<sub>u</sub> state has little overlap with the other two states, so that the electron motion pauses.
 
@@ -132,7 +132,7 @@ References:
 
 - In this regime, the conditions for constructive and destructive buildup are given approximately by <em>E</em><sub>XB</sub> + <em>α</em> = (2<em>n</em> + 1)<em>ω</em> and <em>E</em><sub>XB</sub> + <em>α</em> = 2<em>nω</em>, respectively, where <em>E</em><sub>XB</sub> is the energy separation between the two states, <em>α</em> is the AC Stark shift, and <em>n</em> is an integer.
 
-- As an example, when the peak laser intensity is 2.0 x 10<sup>14</sup> W/cm<sup>2</sup>, the coherence builds up constructively every half optical cycle for a 1644 nm laser, whereas it interferes destructively for a 1341 nm laser. Their final coherence amplitudes differ by five orders of magnitude.
+- As an example, when the peak laser intensity is 2.0 × 10<sup>14</sup> W/cm<sup>2</sup>, the coherence builds up constructively every half optical cycle for a 1644 nm laser, whereas it interferes destructively for a 1341 nm laser. Their final coherence amplitudes differ by five orders of magnitude.
 
 - **Can this control scheme be extended to other molecules?**
 
@@ -160,7 +160,7 @@ Reference:
 
 - Another approach is called strong-field dissociative sequential double ionization (DSDI). It uses an intense infrared laser pulse arriving after the pump pulse. This pulse first drives transitions between ionic electronic states, making the response sensitive to the amplitude of electronic coherence. It then removes a second electron from the excited states, creating a doubly charged molecular ion that breaks apart. By measuring the resulting ionic fragments, we obtain information about the underlying electron motion.
 
-- In the example of N<sub>2</sub><sup>+</sup>, oscillation in the kinetic energy release of N<sup>+</sup> + N<sup>+</sup> at different delays contain the information of the electronic coherences.
+- In the example of N<sub>2</sub><sup>+</sup>, the oscillation in the kinetic energy release of N<sup>+</sup> + N<sup>+</sup> at different delays contains information about the electronic coherence.
 
 - Both approaches have important limitations. ATAS captures only part of the electronic motion, while DSDI provides access to a more complete picture but strongly perturbs the molecular ion during the measurement process. As a result, neither technique directly reveals the unperturbed electron dynamics. **Can we design a probe that is both highly informative and minimally invasive?**
 

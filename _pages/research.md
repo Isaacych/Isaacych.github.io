@@ -148,14 +148,14 @@ Reference:
 - One way to probe the electron motion is attosecond transient absorption spectroscopy (ATAS). An isolated attosecond pulse interacts with the molecular ion at a chosen delay after the pump pulse. The electronic coherence leaves characteristic fingerprints on the absorption spectrum of the attosecond pulse, allowing us to track how the electronic wave packet evolves in time.
 
 - In the example of N<sub>2</sub><sup>+</sup>, only the coherence between the <em>A</em><sup>2</sup>Π<sub>u</sub> and <em>B</em><sup>2</sup>Σ<sub>u</sub><sup>+</sup> states is imprinted in the absorption band at 391 eV.
-{: .cf}
+
 
 {% include figure image_path="/assets/images/KER_t.png" class="align-right one-third" alt="Kinetic energy release spectrum of the ionic fragments as a function of time delay" caption="Kinetic energy release (KER) spectrum of the ionic fragments from strong-field dissociative sequential double ionization as a function of the pump-probe time delay." %}
 
 - Another approach is called strong-field dissociative sequential double ionization (DSDI). It uses an intense infrared laser pulse arriving after the pump pulse. This pulse first drives transitions between ionic electronic states, making the response sensitive to the amplitude of electronic coherence. It then removes a second electron from the excited states, creating a doubly charged molecular ion that breaks apart. By measuring the resulting ionic fragments, we obtain information about the underlying electron motion.
 
 - In the example of N<sub>2</sub><sup>+</sup>, oscillation in the kinetic energy release of N<sup>+</sup> + N<sup>+</sup> at different delays contain the information of the electronic coherences.
-{: .cf}
+
 
 - Both approaches have important limitations. ATAS captures only part of the electronic motion, while DSDI provides access to a more complete picture but strongly perturbs the molecular ion during the measurement process. As a result, neither technique directly reveals the unperturbed electron dynamics. **Can we design a probe that is both highly informative and minimally invasive?**
 

@@ -141,8 +141,6 @@ Reference:
 
 ## Probing electronic coherence in molecules
 
-- We start electron motion with one laser pulse, wait for a controlled time, and then take a "snapshot" with a second pulse. By combining snapshots taken at many different times, we create a movie of how electrons move inside a molecule.
-
 <div class="media-cluster align-right">
   <figure>
     <img src="{{ '/assets/images/ATAS.png' | relative_url }}" alt="Attosecond transient absorption spectrogram of the nitrogen molecular ion">
@@ -153,6 +151,8 @@ Reference:
     <figcaption>Kinetic energy release (KER) spectrum of the ionic fragments from strong-field dissociative sequential double ionization as a function of the pump-probe time delay.</figcaption>
   </figure>
 </div>
+
+- We start electron motion with one laser pulse, wait for a controlled time, and then take a "snapshot" with a second pulse. By combining snapshots taken at many different times, we create a movie of how electrons move inside a molecule.
 
 - One way to probe the electron motion is attosecond transient absorption spectroscopy (ATAS). An isolated attosecond pulse interacts with the molecular ion at a chosen delay after the pump pulse. The electronic coherence leaves characteristic fingerprints on the absorption spectrum of the attosecond pulse, allowing us to track how the electronic wave packet evolves in time.
 

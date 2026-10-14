@@ -56,10 +56,17 @@ figure.tunneling-sequence.third {
 }
 
 /* Constrain a single figure to one-third of the content-column width
-   (e.g. the electron-dynamics GIF on the Research page). Pair it with the
+   (e.g. the ATAS/KER figures on the Research page). Pair it with the
    theme's `align-right` class to float the figure right so the surrounding
-   text wraps along its left; full width on small screens. */
+   text wraps along its left; full width on small screens. `display: block`
+   undoes the theme's base `figure { display: flex }`, which would otherwise
+   place the img and figcaption side by side as flex items and shrink the
+   image; `margin: 0` removes the base `figure { margin: 2em 0 }` so the
+   float lines up with the text it sits beside. */
 figure.one-third {
+  display: block;
+  margin: 0;
+
   @include breakpoint($small) {
     width: 33.3333%;
   }

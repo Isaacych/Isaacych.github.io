@@ -124,13 +124,17 @@ Reference:
 
 {% include gallery id="gallery_buildup" class="tunneling-sequence" caption="Left: An effective two-level system formed by the <em>X</em><sup>2</sup>Σ<sub>g</sub><sup>+</sup> and <em>B</em><sup>2</sup>Σ<sub>u</sub><sup>+</sup> states of N<sub>2</sub><sup>+</sup>. Middle: Buildup of the electronic coherence at 1341 nm and 1644 nm. Right: Coherence amplitude as a function of laser intensity and wavelength, where the red dashed lines mark the constructive-buildup condition." %}
 
-- As mentioned above, multielectron tunneling ionization creates electronic coherence in ionic states. The coherence created at different times would interfere to strengthen or dampen the amplitude. Can we control the timing to amplify it significantly?
-
 - When the N<sub>2</sub> molecule is aligned with the laser polarization, tunnel ionization and excitation predominantly forms the <em>X</em><sup>2</sup>Σ<sub>g</sub><sup>+</sup> and <em>B</em><sup>2</sup>Σ<sub>u</sub><sup>+</sup> states of N<sub>2</sub><sup>+</sup>. As a result, we have an effective two-level system.
 
-- When the laser frequency is much smaller than the energy separation between the <em>X</em><sup>2</sup>Σ<sub>g</sub><sup>+</sup> and <em>B</em><sup>2</sup>Σ<sub>u</sub><sup>+</sup> states, we enter the **adiabatic** regime for strong-field excitation. 
+- The electronic coherence created by multielectron tunneling at different times would interfere to strengthen or dampen its amplitude. Can we control the timing to amplify it significantly?
 
-- The condition for constructive coherence buildup follows approximately as <em>E</em><sub>XB</sub> + <em>α</em> = (2<em>n</em> + 1)<em>ω</em>, while the destructive coherence buildup follows <em>E</em><sub>XB</sub> + <em>α</em> = 2<em>nω</em>. Here <em>α</em> is the ac Stark shift between the two states.
+- When the laser frequency is much smaller than the energy separation between the <em>X</em><sup>2</sup>Σ<sub>g</sub><sup>+</sup> and <em>B</em><sup>2</sup>Σ<sub>u</sub><sup>+</sup> states, we enter the **adiabatic** regime for strong-field excitation.
+
+- Coherence buildup constructively every half optical cycle for a 1644 nm laser, while coherence interfere destructively for a 1341 nm laser.
+
+- In the adiabatic regime, the condition for constructive coherence buildup follows approximately as <em>E</em><sub>XB</sub> + <em>α</em> = (2<em>n</em> + 1)<em>ω</em>, while the destructive coherence buildup follows <em>E</em><sub>XB</sub> + <em>α</em> = 2<em>nω</em>. Here <em>α</em> is the ac Stark shift between the two states.
+
+- **Can this control scheme apply to other molecules?**
 
 Reference:
 1. C.H. Yuen, Enhanced excited-state population and coherence via adiabatic tunneling ionization and excitation, Physical Review A 113 (1), 013125 (2026)

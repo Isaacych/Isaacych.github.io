@@ -130,9 +130,9 @@ Reference:
 
 - When the laser frequency is much smaller than the energy separation between the <em>X</em><sup>2</sup>Σ<sub>g</sub><sup>+</sup> and <em>B</em><sup>2</sup>Σ<sub>u</sub><sup>+</sup> states, strong-field excitation enters the **adiabatic** regime.
 
-- In this regime, the conditions for constructive and destructive buildup are given approximately by <em>E</em><sub>XB</sub> + <em>α</em> = (2<em>n</em> + 1)<em>ω</em> and <em>E</em><sub>XB</sub> + <em>α</em> = 2<em>nω</em>, respectively, where <em>E</em><sub>XB</sub> is the energy separation between the two states, <em>α</em> is the AC Stark shift, and <em>n</em> is an integer indexing the optical cycles.
+- In this regime, the conditions for constructive and destructive buildup are given approximately by <em>E</em><sub>XB</sub> + <em>α</em> = (2<em>n</em> + 1)<em>ω</em> and <em>E</em><sub>XB</sub> + <em>α</em> = 2<em>nω</em>, respectively, where <em>E</em><sub>XB</sub> is the energy separation between the two states, <em>α</em> is the AC Stark shift, and <em>n</em> is an integer.
 
-- As an example, when the peak laser intensity is 2.0 x 10<sup>14</sup> W/cm<sup>2</sup>, the coherence builds up constructively every half optical cycle for a 1644 nm laser, whereas it interferes destructively for a 1341 nm laser. Their final coherence amplitude differ by five orders of magnitude.
+- As an example, when the peak laser intensity is 2.0 x 10<sup>14</sup> W/cm<sup>2</sup>, the coherence builds up constructively every half optical cycle for a 1644 nm laser, whereas it interferes destructively for a 1341 nm laser. Their final coherence amplitudes differ by five orders of magnitude.
 
 - **Can this control scheme be extended to other molecules?**
 

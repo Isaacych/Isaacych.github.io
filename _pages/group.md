@@ -13,6 +13,7 @@ author_profile: true
 - Assistant Professor of Physics
 - Kennesaw State University
 - Email: cyuen2@kennesaw.edu
+- [CV]({{ "/assets/files/mycv.pdf" | relative_url }}) (PDF)
 
 ### Undergraduate Researchers
 

@@ -148,6 +148,7 @@ Reference:
 - One way to probe the electron motion is attosecond transient absorption spectroscopy (ATAS). An isolated attosecond pulse interacts with the molecular ion at a chosen delay after the pump pulse. The electronic coherence leaves characteristic fingerprints on the absorption spectrum of the attosecond pulse, allowing us to track how the electronic wave packet evolves in time.
 
 - In the example of N<sub>2</sub><sup>+</sup>, only the coherence between the <em>A</em><sup>2</sup>Π<sub>u</sub> and <em>B</em><sup>2</sup>Σ<sub>u</sub><sup>+</sup> states is imprinted in the absorption band at 391 eV.
+{: .cf}
 
 {% include figure image_path="/assets/images/KER_t.png" class="align-right one-third" alt="Kinetic energy release spectrum of the ionic fragments as a function of time delay" caption="Kinetic energy release (KER) spectrum of the ionic fragments from strong-field dissociative sequential double ionization as a function of the pump-probe time delay." %}
 

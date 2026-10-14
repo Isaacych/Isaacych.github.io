@@ -162,8 +162,7 @@ Reference:
 
 - In the example of N<sub>2</sub><sup>+</sup>, oscillation in the kinetic energy release of N<sup>+</sup> + N<sup>+</sup> at different delays contain the information of the electronic coherences.
 
-- Both approaches have important limitations.
-{: .cf} ATAS captures only part of the electronic motion, while DSDI provides access to a more complete picture but strongly perturbs the molecular ion during the measurement process. As a result, neither technique directly reveals the unperturbed electron dynamics. **Can we design a probe that is both highly informative and minimally invasive?**
+- Both approaches have important limitations. ATAS captures only part of the electronic motion, while DSDI provides access to a more complete picture but strongly perturbs the molecular ion during the measurement process. As a result, neither technique directly reveals the unperturbed electron dynamics. **Can we design a probe that is both highly informative and minimally invasive?**
 
 References:
 

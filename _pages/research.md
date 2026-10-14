@@ -12,11 +12,11 @@ gallery:
   - image_path: /assets/images/after_tunneling.svg
     alt: "After tunneling ionization"
 gallery_buildup:
-  - image_path: /assets/images/two-level.svg
+  - image_path: /assets/images/two-level.png
     alt: "Effective two-level system of the nitrogen molecular ion"
   - image_path: /assets/images/buildup-phase.png
     alt: "Subcycle buildup of the electronic coherence at 1341 nm and 1644 nm"
-  - image_path: /assets/images/coh-amp.svg
+  - image_path: /assets/images/coh-amp.png
     alt: "Coherence amplitude as a function of laser intensity and wavelength"
 ---
 

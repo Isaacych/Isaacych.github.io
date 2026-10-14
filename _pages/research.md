@@ -116,7 +116,7 @@ Reference:
 
 - **This kind of dynamics occurs for other diatomic molecules after ionization. But for polyatomic molecules, some nuclear wave packets may not return close to the equilibrium position due to extra degrees of freedom. Can we find long-lived electronic coherence in polyatomic molecules?**
 
-Reference: 
+References: 
 1. C.H. Yuen, Nonadiabatic theory for subcycle ionic dynamics in multielectron tunneling ionization, Physical Review A 113 (4), 043125 (2026)
 2. C.H. Yuen and C.D. Lin, Coherence from multiorbital tunneling ionization of molecules, Physical Review A 108 (2), 023123 (2023)
 
@@ -141,8 +141,20 @@ Reference:
 
 ## Probing electronic coherence in molecules
 
-- C.H. Yuen and C.D. Lin, Rotation in attosecond vibronic coherence spectroscopy for molecules, Communications Physics 7 (1) (2024)
+- We start electron motion with one laser pulse, wait for a controlled time, and then take a "snapshot" with a second pulse. By combining snapshots taken at many different times, we create a movie of how electrons move inside a molecule.
 
-- C.H. Yuen and C.D. Lin, Theory of strong-field sequential double ionization of polyatomic molecules, Physical Review A 109 (3), 033108 (2024)
+- One way to probe the electron motion is attosecond transient absorption spectroscopy (ATAS). An isolated attosecond pulse interacts with the molecular ion at a chosen delay after the pump pulse. The electronic coherence leaves characteristic fingerprints on the absorption spectrum of the attosecond pulse, allowing us to track how the electronic wave packet evolves in time.
 
-- C.H. Yuen and C.D. Lin, Probing vibronic coherence in charge migration in molecules using strong-field sequential double ionization, Physical Review A 109 (1), L011101 (2024)
+- Another approach is called strong-field dissociative sequential double ionization (DSDI). It uses an intense infrared laser pulse arriving after the pump pulse. This pulse first drives transitions between ionic electronic states, making the response sensitive to the amplitude of electronic coherence. It then removes a second electron from the excited states, creating a doubly charged molecular ion that breaks apart. By measuring the resulting ionic fragments, we obtain information about the underlying electron motion.
+
+- Both approaches have important limitations. ATAS captures only part of the electronic motion, while DSDI provides access to a more complete picture but strongly perturbs the molecular ion during the measurement process. As a result, neither technique directly reveals the unperturbed electron dynamics. **Can we design a probe that is both highly informative and minimally invasive?**
+
+References:
+
+1. C.H. Yuen and C.D. Lin, Probing vibronic coherence in charge migration in molecules using strong-field sequential double ionization, Physical Review A 109 (1), L011101 (2024)
+
+2. C.H. Yuen and C.D. Lin, Theory of strong-field sequential double ionization of polyatomic molecules, Physical Review A 109 (3), 033108 (2024)
+
+3. C.H. Yuen and C.D. Lin, Rotation in attosecond vibronic coherence spectroscopy for molecules, Communications Physics 7 (1) (2024)
+
+4. E. Weckwerth, A.J. Howard, C. Cheng, I. Gabalski, A.M. Ghrist, S.A. Mohideen, C.D. Lin, C.H. Yuen and P.H. Bucksbaum, Optical interference effect in strong-field electronic coherence spectroscopy, Physical Review A 112 (4), 043113 (2025)

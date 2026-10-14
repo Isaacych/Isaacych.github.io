@@ -22,7 +22,7 @@ My research develops theory and computational models for how molecules respond t
 ## Explore
 
 - [Research]({{ '/research/' | relative_url }})
-- [Publications]({{ '/publications/' | relative_url }}) (see also [Google Scholar](https://scholar.google.com/citations?user=1lWB0RwAAAAJ))
+- [Publications]({{ '/publications/' | relative_url }})
 - [Group Members]({{ '/group/' | relative_url }})
 - [News]({{ '/news/' | relative_url }})
 

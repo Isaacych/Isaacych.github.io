@@ -144,11 +144,11 @@ Reference:
 <div class="media-cluster align-right">
   <figure>
     <img src="{{ '/assets/images/ATAS.png' | relative_url }}" alt="Attosecond transient absorption spectrogram of the nitrogen molecular ion">
-    <figcaption>Attosecond transient absorption spectrogram of N<sub>2</sub><sup>+</sup> as a function of the pump-probe time delay.</figcaption>
+    <figcaption>Attosecond transient absorption spectrogram of N<sub>2</sub><sup>+</sup> as a function of the pump-probe delay.</figcaption>
   </figure>
   <figure>
     <img src="{{ '/assets/images/KER_t.png' | relative_url }}" alt="Kinetic energy release spectrum of the ionic fragments as a function of time delay">
-    <figcaption>Kinetic energy release (KER) spectrum of the ionic fragments from strong-field dissociative sequential double ionization as a function of the pump-probe time delay.</figcaption>
+    <figcaption>Kinetic energy release (KER) spectrum of the ionic fragments from strong-field dissociative sequential double ionization as a function of the pump-probe delay.</figcaption>
   </figure>
 </div>
 
@@ -160,7 +160,7 @@ Reference:
 
 - Another approach is called strong-field dissociative sequential double ionization (DSDI). It uses an intense infrared laser pulse arriving after the pump pulse. This pulse first drives transitions between ionic electronic states, making the response sensitive to the amplitude of electronic coherence. It then removes a second electron from the excited states, creating a doubly charged molecular ion that breaks apart. By measuring the resulting ionic fragments, we obtain information about the underlying electron motion.
 
-- In the example of N<sub>2</sub><sup>+</sup>, the oscillation in the kinetic energy release of N<sup>+</sup> + N<sup>+</sup> at different delays contains information about the electronic coherence.
+- The oscillation in the kinetic energy release of N<sup>+</sup> + N<sup>+</sup> at different delays contains information about the all three pairs of electronic coherence.
 
 - Both approaches have important limitations. ATAS captures only part of the electronic motion, while DSDI provides access to a more complete picture but strongly perturbs the molecular ion during the measurement process. As a result, neither technique directly reveals the unperturbed electron dynamics. **Can we design a probe that is both highly informative and minimally invasive?**
 

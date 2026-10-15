@@ -6,8 +6,8 @@ author_profile: true
 classes: wide
 header:
   image: /assets/images/Qwen_image_2.1_00026.png
-  image_description: An AI-generated image illustrating an intense probe pulse fragmenting the pumped molecule.
-  caption: An AI-generated image illustrating an intense probe pulse fragmenting the pumped molecule. Created by Qwen-Image-2.1 on ComfyUI.
+  image_description: An AI-generated image illustrating an intense probe pulse ionizing and fragmenting a pumped molecule.
+  caption: An AI-generated image illustrating an intense probe pulse ionizing and fragmenting a pumped molecule. Created by Qwen-Image-2.1 on ComfyUI.
 gallery:
   - image_path: /assets/images/before_tunneling.svg
     alt: "Before tunneling ionization"

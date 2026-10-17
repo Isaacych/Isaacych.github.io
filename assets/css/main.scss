@@ -15,10 +15,10 @@ $doc-font-size: 12px;
 @import "minimal-mistakes"; // main partials
 
 /* Hero image caption is $type-size-7 (~8px at the 12px base) by default;
-   bump it to the body text size (12px) without affecting other
+   bump it to 10px without affecting other
    type-size-7 elements (footer, nav, buttons). */
 .page__hero-caption {
-  font-size: 1em; // 12px at the 12px base, same as body text
+  font-size: 10px;
 }
 
 /* Masthead: the title inherits the 12px body size (same as the nav links)

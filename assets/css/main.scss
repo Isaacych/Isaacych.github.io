@@ -14,11 +14,11 @@ $doc-font-size: 12px;
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
-/* Hero image caption is $type-size-7 (~8px at the 12px base) by default;
-   bump it to 10px without affecting other
+/* Hero image caption is $type-size-7 (~8.25px at the 12px base) by default;
+   pin it to 8px without affecting other
    type-size-7 elements (footer, nav, buttons). */
 .page__hero-caption {
-  font-size: 10px;
+  font-size: 8px;
 }
 
 /* Masthead: the title inherits the 12px body size (same as the nav links)
